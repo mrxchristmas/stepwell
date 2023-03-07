@@ -1,0 +1,227 @@
+
+.builder-area-page-print > .header > .titlecon > span{
+    color: black;
+}
+.builder-area-page-print > .header > .titlecon > .title{
+    font-size: 1.4em;
+}
+.builder-area-page-print > .header > .titlecon > .subtitle{
+    font-size: 1.2em;
+    padding: 3px 0px;
+}
+.builder-area-page-print > .header > .titlecon > .mintitle{
+    font-size: 0.8em;
+}
+
+
+.builder-area-page-print .header.layout1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.builder-area-page-print .header.layout1 > .titlecon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.builder-area-page-print .header.layout1 > img{
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+.builder-area-page-print .header.layout2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.builder-area-page-print .header.layout2 > .titlecon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.builder-area-page-print .header.layout2 > img{
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+
+.builder-area-page-print .header.layout3{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.builder-area-page-print .header.layout3 > .titlecon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.builder-area-page-print .header.layout3 > img{
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+.builder-area-page-print .header.layout3 > img:nth-child(3){
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.builder-area-page-print .header.layout4{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.builder-area-page-print .header.layout4 > .titlecon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.builder-area-page-print .header.layout4 > img{
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+
+.builder-area-page-print .header.layout5{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.builder-area-page-print .header.layout5 > .titlecon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.builder-area-page-print .header.layout5 > img{
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.builder-area-page-print .header.layout5 > img:nth-child(1){
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+
+.builder-area-page-print > .footer > .title{
+    color: black;
+    font-size: 1.2em;
+}
+.builder-area-page-print > .footer.layout1{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.builder-area-page-print > .footer > .title{
+    color: black;
+    font-size: 1em;
+}
+.builder-area-page-print > .footer.layout1{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.builder-area-page-print > .footer.layout2{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.builder-area-page-print > .footer.layout2 > img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

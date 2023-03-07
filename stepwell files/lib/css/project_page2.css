@@ -1,0 +1,98 @@
+
+.pp2-sameline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rebeccapurple; */
+    width: 90%;
+}
+.pp2-sameline-r{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rebeccapurple; */
+    width: 90%;
+}
+
+.pp2-icontext{
+    font-size: 1.1em;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.pp2-zicontext{
+    font-size: 1.1em;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.pp2-icon{
+    width: 20px;
+    height: 20px;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pp2-widget-con{
+    width: 90%;
+    min-width: 400px;
+    height: auto;
+    min-height: 130px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.pp2-widget-content{
+    width: 100%;
+    height: auto;
+    /* min-height: 200px; */
+    /* background-color: red; */
+    margin-top: 10px;
+}
+.pp2-widget-content-sub{
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pp2-hidden{
+    display: none;
+}
+
+.pp2-widget-gate{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5em;
+    color: grey;
+    cursor: pointer;
+    text-shadow: 1px 1px #00000059;
+}
+.pp2-input-save{
+    width: 70%;
+}
+
+.pp2-zicontext.scale{
+    transform: scale(1.5);
+}
+.pp2-scale{
+    transform: scale(1.5);
+}

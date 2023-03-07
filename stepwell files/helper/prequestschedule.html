@@ -1,0 +1,244 @@
+<div class="preqsched-body">
+
+    <div class="preqsched-body-preqtasklist">
+        <div class="preqsched-body-preqtasklist-legend">
+            <span class="blocking color-title">
+                <i id="preqsched-body-preqtasklist-legend-add"class="fas fa-plus handler-icon" msg="Add Document"></i>
+                <i id="preqsched-body-preqtasklist-legend-edit" class="fas fa-edit handler-icon hidden" msg="Edit"></i>
+                <i class="fas fa-link handler-icon hidden" msg="Add Link"></i>
+                <i class="fas fa-paperclip handler-icon hidden" msg="Add Predecessor"></i>
+                <i class="fas fa-trash handler-icon hidden" msg="Delete Document"></i>
+            </span>
+            <span class="dateLegend color-sc">Draft SD</span>
+            <span class="dateLegend color-sc">Draft ED</span>
+            <span class="dateLegend color-sc">Review ED</span>
+            <span class="dateLegend color-sc">Approval ED</span>
+            <span class="dateLegend color-sc">Execution ED</span>
+            <span class="dateLegend color-sc">PostApproval ED</span>
+        </div>
+        <div class="preqtasklist-widget-con">
+            
+            <div id="preqtasklist_PD-1234515" class="preqtasklist-widget color-sc">
+                <div status="closed"  class="preqtasklist-widget-title">
+                    <i status="bars" class="fas fa-bars handle preqtasklist-widget-addtask"></i>
+                    <span for="scales"><input type="checkbox" name="schedulehandler" class="preqtasklist-widget-title-documenthandler"><i class="far fa-star preqtasklist-widget-title-milestone" status="idle"></i>Title is super very very long and you cannot see it</span>
+                    <input class="preqtasklist-widget-dates-draftsd editable first" value="" type="date" disabled>
+                    <input class="preqtasklist-widget-dates-drafted editable" value="" type="date" disabled>
+                    <input class="preqtasklist-widget-dates-reviewed editable" value="" type="date" disabled>
+                    <input class="preqtasklist-widget-dates-approveed editable" value="" type="date" disabled>
+                    <input class="preqtasklist-widget-dates-executioned uneditable" value="" type="date" disabled>
+                    <input class="preqtasklist-widget-dates-postapproveed uneditable" value="" type="date" disabled>
+                </div>
+
+                <div id="asdasd" planid="${preqtaskList[i].planid}" projectid="${preqtaskList[i].projectid}" name="${preqtaskList[i].taskname}" class="preqtasklist-widget-task">
+                    <input value="${preqtaskList[i].taskname}" type="text" class="preqtasklist-widget-preqsched-name-i">
+                    <span class="preqtasklist-widget-preqsched-name-s">Name  <div><span class="totalhours">Team 200 Hours</span><span class="counter">1</span></div></span>
+                    <input class="preqtasklist-widget-date-start" value="" type="date" max="" disabled>
+                    <input class="preqtasklist-widget-date-end" value="" type="date" max="" disabled>
+                    <i class="fas fa-user-plus preqtasklist-widget-icon-resources"></i>
+                    <i class="fas fa-clipboard-list preqtasklist-widget-icon-clipboard"></i>
+                    <i status="edit" class="fas fa-edit preqtasklist-widget-icon-edit"></i>
+                    <i class="fas fa-trash preqtasklist-widget-icon-delete"></i>
+                </div>
+
+            </div>
+
+            <div id="preqtasklist_nst" class="preqtasklist-widget color-sc">
+                <div status="closed" class="preqtasklist-widget-title">
+                    <i status="bars" class="fas fa-bars handle preqtasklist-widget-addtask"></i>
+                    <span>Non Specified Task</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="preqsched-add-con">
+        <div class="preqsched-add-form btn-shadow">
+            <span class="title">Add New Document to Schedule</span>
+            <br>
+            <div class="name">
+                <span>Document Name</span>
+                <input id="preqsched-add-form-title" type="text" placeholder="Document Name">
+            </div>
+            <div class="schedule">
+                <div class="fill">
+                    <span>Draft SD</span>
+                    <input id="preqsched-add-form-draftsd" type="date" placeholder="Document Name">
+                </div>
+                <div class="fill">
+                    <span>Draft ED</span>
+                    <input id="preqsched-add-form-drafted" type="date" placeholder="Document Name">
+                </div>
+                <div class="fill">
+                    <span>Review ED</span>
+                    <input id="preqsched-add-form-reviewed" type="date" placeholder="Document Name">
+                </div>
+                <div class="fill">
+                    <span>Approval ED</span>
+                    <input id="preqsched-add-form-approvaled" type="date" placeholder="Document Name">
+                </div>
+                <div class="fill">
+                    <span>Execution ED</span>
+                    <input id="preqsched-add-form-executioned" type="date" placeholder="Document Name">
+                </div>
+                <div class="fill">
+                    <span>Post Approval ED</span>
+                    <input id="preqsched-add-form-postapprovaled" type="date" placeholder="Document Name">
+                </div>
+            </div>
+            <button id="preqsched-add-form-save" class="btn-shadow ">Save</button>
+            <button id="preqsched-add-form-cancel" class="btn-shadow ">Cancel</button>
+            
+            
+        </div>
+    </div>
+
+    <div class="preqsched-resources-con">
+        <div class="preqsched-resources-form btn-shadow">
+            <span class="preqsched-resources-form-title">Add Resources to Task: <span class="preqsched-resources-form-title-taskname">Custom Task Name</span></span>
+            <fieldset class="preqsched-resources-form-type-con">
+                <legend>Select Type of Resource</legend>
+                <input class="preqsched-resources-form-type-handle" id="preqsched-resources-form-type-hours" type="radio" name="prefs-type" value="hours" checked>
+                <label for="preqsched-resources-form-type-hours">Hourly</label>
+                <input class="preqsched-resources-form-type-handle" id="preqsched-resources-form-type-supplier" type="radio" name="prefs-type" value="supplier">
+                <label for="preqsched-resources-form-type-supplier">Supplier</label>
+                <input class="preqsched-resources-form-type-handle" id="preqsched-resources-form-type-tm" type="radio" name="prefs-type" value="tm">
+                <label for="preqsched-resources-form-type-tm">T&M</label>
+                
+                <div class="preqsched-resources-form-type-hours preqsched-resources-form-type-container">
+                    <div class="create-resource">
+                        <input type="text" placeholder="Add Temporary Account">
+                        <button id="preqsched-resources-form-add-tmpaccount" class="btn-shadow">Create</button>
+                    </div>
+                    <div class="add-resource">
+                        <select name="" id="preqsched-resources-form-type-hours-select">
+                            <option value="us1">User 1</option>
+                            <option value="us2">User 2</option>
+                            <option value="us3">User 3</option>
+                        </select>
+                        <input type="text" id="preqsched-resources-form-type-hours-input" placeholder="Hours">
+                        <button class="btn-shadow preqsched-resources-form-type-submit hours">Add Resource</button>
+                    </div>
+                </div>
+                <div class="preqsched-resources-form-type-supplier preqsched-resources-form-type-container">
+                    <div class="create-resource">
+                        <input type="text" placeholder="Add Temporary Supplier">
+                        <button id="preqsched-resources-form-add-tmpsupplier" class="btn-shadow">Create</button>
+                    </div>
+                    <div class="add-resource">
+                        <select name="" id="preqsched-resources-form-type-supplier-select">
+                            <option value="sup1">Supplier 1</option>
+                            <option value="sup2">Supplier 2</option>
+                            <option value="sup3">Supplier 3</option>
+                        </select>
+                        <button class="btn-shadow preqsched-resources-form-type-submit supplier">Add Resource</button>
+                    </div>
+                </div>
+                <div class="preqsched-resources-form-type-tm preqsched-resources-form-type-container">
+                    <div class="create-resource">
+                        <input type="text" placeholder="Add Temporary Supplier">
+                        <button id="preqsched-resources-form-add-tmptm" class="btn-shadow">Create</button>
+                    </div>
+                    <div class="add-resource">
+                        <select name="" id="preqsched-resources-form-type-tm-select">
+                            <option value="sup4">Supplier 1</option>
+                            <option value="sup5">Supplier 2</option>
+                            <option value="sup6">Supplier 3</option>
+                        </select>
+                        <input id="preqsched-resources-form-type-tm-maxhours" type="text" placeholder="Hours">
+                        <button class="btn-shadow preqsched-resources-form-type-submit tm">Add Resource</button>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="preqsched-resources-form-connect-list">
+                <!-- <span class="preqsched-resources-form-connect-list-widget color-sc">Firstname Lastname 
+                    <div>
+                        <input type="text" placeholder="hours" value="40" disabled>
+                        <i status="edit" class="fas fa-edit preqsched-resources-form-connect-list-widget-edit"></i>
+                        <i class="fas fa-trash preqsched-resources-form-connect-list-widget-edit"></i>
+                    </div>
+                </span>
+                <span class="preqsched-resources-form-connect-list-widget color-sc">Firstname Lastname 
+                    <div><input type="text" placeholder="hours" value="40" disabled><i status="edit" class="fas fa-edit preqsched-resources-form-connect-list-widget-edit"></i><i class="fas fa-trash preqsched-resources-form-connect-list-widget-delete"></i></div>
+                </span>
+                <span class="preqsched-resources-form-connect-list-widget color-sc">Firstname Lastname 
+                    <div><input type="text" placeholder="hours" value="40" disabled><i status="edit" class="fas fa-edit preqsched-resources-form-connect-list-widget-edit"></i><i class="fas fa-trash preqsched-resources-form-connect-list-widget-delete"></i></div>
+                </span> -->
+            </div>
+
+            <span class="preqsched-resources-form-totalhours-con">Total Hours: <span class="preqsched-resources-form-totalhours"></span></span>
+
+        </div>
+    </div>
+
+    <div class="preqdocument-link-con">
+        <div class="preqdocument-link-form btn-shadow">
+            <span class="preqdocument-link-form-title">Add Link to <span class="preqdocument-link-form-title-documentname">Custom Document Name</span></span>
+            <div class="preqdocument-link-form-stage-select">
+                <select name="" id="choose-link-stage">
+                    <option value="drafted">Draft End</option>
+                    <option value="reviewed">Review End</option>
+                    <option value="approvaled">Approve End</option>
+                    <option value="executioned">Execution End</option>
+                    <option value="postapprovaled">Post Approval End</option>
+                </select>
+                <button id ="link-btn-select-stage" class="btn-shadow">Select Stage</button>
+            </div>
+
+            <div class="preqdocument-link-form-preqdocument-select">
+                <select name="" id="choose-link-document">
+                    <option value="">Document Name 1</option>
+                    <option value="">Document Name 2</option>
+                    <option value="">Document Name 3</option>
+                    <option value="">Document Name 4</option>
+                </select>
+                <button id="preqdocument-btn-link-add" class="btn-shadow">Add Link</button>
+            </div>
+
+            <div id = "link-form-preqdocument-list" class="preqdocument-link-form-preqdocument-list">
+                <span>Document Name 1<span>2020-09-01<i class="fas fa-trash"></i></span></span>
+                <span>Document Name 2<span>2020-09-01<i class="fas fa-trash"></i></span></span>
+                <span>Document Name 3<span>2020-09-01<i class="fas fa-trash"></i></span></span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="preqdocument-preds-con">
+        <div class="preqdocument-preds-form btn-shadow">
+            <span class="preqdocument-preds-form-title">Add Predecessor to <span class="preqdocument-preds-form-title-documentname">Custom Document Name</span></span>
+            <div class="preqdocument-preds-form-stage-select">
+                <select name="" id="choose-preds-stage">
+                    <option value="drafted">Draft End</option>
+                    <option value="reviewed">Review End</option>
+                    <option value="approvaled">Approve End</option>
+                    <option value="executioned">Execution End</option>
+                    <option value="postapprovaled">Post Approval End</option>
+                </select>
+                <button id = "preds-btn-select-stage" class="btn-shadow">Select Stage</button>
+            </div>
+
+            <div class="preqdocument-preds-form-preqdocument-select">
+                <select name="" id="choose-preds-document">
+                    <option value="">Document Name 1</option>
+                    <option value="">Document Name 2</option>
+                    <option value="">Document Name 3</option>
+                    <option value="">Document Name 4</option>
+                </select>
+                <button id="preqdocument-btn-preds-add" class="btn-shadow">Add Predecessor</button>
+            </div>
+
+            <div class="preqdocument-preds-form-preqdocument-list">
+                <span>Document Name 1 <span>2020-09-01<i class="fas fa-trash"></i></span></span>
+                <span>Document Name 2 <span>2020-09-01<i class="fas fa-trash"></i></span></span>
+                <span>Document Name 3 <span>2020-09-01<i class="fas fa-trash"></i></span></span>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+

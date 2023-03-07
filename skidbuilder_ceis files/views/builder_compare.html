@@ -1,0 +1,126 @@
+<div id="builder-area-compare-form" class="hidden">
+    <div class="container">
+        <span class="title">DATA COMPARISON</span>
+        <i id="builder-area-compare-form-print" class="fas fa-print"></i>
+        <fieldset>
+          <legend>View Options</legend>
+            <input id="compare-view-option-all" type="radio" name="compare-view-option" checked>
+            <label for="compare-view-option-all">Show All</label>
+            <input id="compare-view-option-unit" type="radio" name="compare-view-option">
+            <label for="compare-view-option-unit">Unit Only</label>
+            <input id="compare-view-option-equipment" type="radio" name="compare-view-option">
+            <label for="compare-view-option-equipment">Equipment Only</label>
+        </fieldset>
+        <span id="editor-clear" class="">Clear Editor</span>
+        <div class="editor-con ">
+            <div id="editor" contenteditable="false"></div>
+            <button id="builder-area-compare-form-save">SAVE</button>
+        </div>
+        <span id="editor-report"></span>
+        <!-- <textarea id="builder-area-compare-form-formula" class="formula"><span class="green">Hello</span></textarea> -->
+        <i id="builder-area-compare-form-close" class="fas fa-times"></i>
+        <br>
+        <div class="builder-area-compare-tablecon">
+            <table>
+                <thead>
+                    <tr id="builder-area-compare-form-thead">
+                        <td rowspan="2">Process</td>
+                        <td rowspan="2">Parameter</td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="text" value="1"></td>
+                        <td><input id="builder-area-compare-form-thead-compare1" type="text" value="2"><button onclick="drawTable(getComponents());">Go</button></td>
+                        <td><input id="builder-area-compare-form-thead-compare2" type="text" value="4"><button onclick="drawTable(getComponents());">Go</button></td>
+                    </tr>
+                    <tr>
+                      <td>Unit</td>
+                      <td>#</td>
+                      <td>A</td>
+                      <td>B</td>
+                      <td>C</td>
+                    </tr>
+                </thead>
+                <tbody id="builder-area-compare-form-tbody">
+    
+                  <tr>
+                    <td rowspan="4">adsdsaadsasd</td>
+                    <td><input type="text" value="asdasdasd1" disabled><i class="fas fa-lock-open"></i></td>
+                    <td><input type="text" value="asdasdasd1"></td>
+                    <td><input type="text" value="asdasdasd1"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" value="asdasdasd2"></td>
+                    <td><input type="text" value="asdasdasd2"></td>
+                    <td><input type="text" value="asdasdasd2"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" value="asdasdasd3"><i class="fas fa-lock-open"></i></td>
+                    <td><input type="text" value="asdasdasd3"><i class="fas fa-lock"></i></td>
+                    <td><input type="text" value="asdasdasd3"><i class="fas fa-lock-open"></i></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" value="asdasdasd4"></td>
+                    <td><input type="text" value="asdasdasd4"></td>
+                    <td><input type="text" value="asdasdasd4"></td>
+                  </tr>
+    
+                  <tr>
+                    <td rowspan="4">asddsadsadas</td>
+                    <td><input type="text" value="asdasdasd"></td>
+                    <td><input type="text" value="asdasdasd"></td>
+                    <td><input type="text" value="asdasdasd"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" value="asdasdasd"></td>
+                    <td><input type="text" value="asdasdasd"></td>
+                    <td><input type="text" value="asdasdasd"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" value="asdasdasd"></td>
+                    <td><input type="text" value="asdasdasd"></td>
+                    <td><input type="text" value="asdasdasd"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" value="asdasdasd"></td>
+                    <td><input type="text" value="asdasdasd"></td>
+                    <td><input type="text" value="asdasdasd"></td>
+                  </tr>
+                  
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <div id="builder-area-compare-custom" class="hidden">
+        <div class="container">
+            <span class="label">Default Value</span>
+            <input type="text" disabled>
+            <span class="title">Overwrite Value</span>
+            <label for="builder-area-compare-custom-group-text" class="label"><input id="builder-area-compare-custom-group-text" type="radio" name="builder-area-compare-custom-group">Custom Text</label>
+            <input type="text">
+            <br>
+            <label for="builder-area-compare-custom-group-numeric" class="label"><input id="builder-area-compare-custom-group-numeric" type="radio" name="builder-area-compare-custom-group">Custom Numeric</label>
+            <input type="text">
+            <br>
+            <label for="builder-area-compare-custom-group-operation" class="label"><input id="builder-area-compare-custom-group-operation" type="radio" name="builder-area-compare-custom-group">Custom Operation</label>
+            <select >
+                <option value="add" selected>Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+            </select>
+            <span class="sublabel">Bind on a first Value <label>please select the correct cell</label></span>
+            <button>Click Here then Click on the Cells on the left</button>
+            <span class="sublabel">Bind on a second Value <label>please select the correct cell</label></span>
+            <button>Click Here then Click on the Cells on the left</button>
+            <span class="sublabel">Current Value</span>
+            <input type="text" disabled>
+            <br>
+            <button>Save</button>
+
+            
+        </div>
+    </div>
+    
+</div>
+

@@ -1,0 +1,49 @@
+<div id="list-dragg-info" class="list-info-dragg ">
+    <div class="title ">
+        <span class="hidden">Unit 1</span>
+        <div class="actions">
+            <i id="list-dragg-info-actions-delete" class="fas fa-trash hidden"></i>
+            <i id="list-dragg-info-actions-h" class="fas fa-sliders-h"></i>
+        </div>
+    </div>
+    <img id="list-dragg-info-icon" class="hidden" src="lib/images/avatardefault.png" alt="">
+    <div id="list-dragg-info-params-con" class="params-con hidden">
+        <div class="params-widget">
+            <span>Parameter 1</span>
+            <div class="in">
+                <input type="text">
+                <div class="action">
+                    <input type="checkbox">
+                    <i class="fas fa-lock-open"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+                
+            </div>
+        </div>
+        <!-- <div propid="${value.id}" type="${value.type}" class="params-widget">
+            <span>${value.name}</span>
+            <div class="in">
+                <input type="text" value="${value.content}">
+                <div class="values text ${value.type == "text" ? "" : "hidden"}">
+                    <input type="text" placeholder="Value" value="${value.content.text ? value.content.text : ""}">
+                </div>
+                <div class="values numeric ${value.type == "numeric" ? "" : "hidden"}">
+                    <input class="min" type="text" placeholder="Min Range" value="${value.content.min ? value.content.min : ""}">
+                    <input class="max" type="text" placeholder="Max Range" value="${value.content.max ? value.content.max : ""}">
+                    <span>&plusmn;${(parseFloat(value.content.max ? value.content.max : 0) - parseFloat(value.content.min ? value.content.min : 0)).toFixed(2)}</span>
+                </div>
+                <div class="action">
+                    <input type="checkbox" ${value.visible == "true" ? 'checked' : ""}>
+                    ${value.type == "text" ? "" : `<i status="${value.lock}" class="fas ${value.lock == "true" ? "fa-lock-open" : "fa-lock"}"></i>`}
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div> -->
+
+
+    </div>
+    <button id="list-dragg-info-add" class="hidden builder-viewonly-hide">Add Property</button>
+    <!-- <button id="list-dragg-info-datasheet" class="hidden">DATA SHEET</button> -->
+    <button id="list-dragg-info-forms" class="hidden">FORMS</button>
+    <button id="list-dragg-info-submit" class="hidden builder-viewonly-hide">SAVE</button>
+</div>

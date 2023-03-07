@@ -1,0 +1,118 @@
+
+
+#builder-report-print{
+    height: auto;
+    width: calc(100% - 40px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    /* overflow: hidden; */
+    /* overflow-y: auto; */
+}
+#builder-report-print  span,
+#builder-report-print  label{
+    color: black;
+}
+
+
+#builder-report-print > .properties{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+#builder-report-print > .properties > .widget{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#builder-report-print > .properties > .widget > .filename{
+    width: calc(50% - 10px);
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: end;
+}
+#builder-report-print > .properties > .widget > .fileid{
+    width: calc(50% - 10px);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: start;
+}
+#builder-report-print > .properties > .widget > .label{
+    width: calc(50% - 10px);
+    text-align: end;
+    font-weight: bold;
+}
+#builder-report-print > .properties > .widget > .value{
+    width: calc(50% - 10px);
+    text-align: start;
+}
+#builder-report-print > .title{
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+#builder-report-print > table td,
+#builder-report-print > table th{
+    border: thin solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+}
+#builder-report-print > table td.center,
+#builder-report-print > table th.center{
+    text-align: center;
+}
+#builder-report-print > table td.bold,
+#builder-report-print > table th.bold{
+    font-weight: bold;
+}
+#builder-report-print > table td.regular,
+#builder-report-print > table th.regular{
+    font-weight: normal;
+    font-size: 1em;
+}
+#builder-report-print > table td.start,
+#builder-report-print > table th.start{
+    text-align: start;
+}
+#builder-report-print > table td.title,
+#builder-report-print > table th.title{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#builder-report-print > table td.subtitle,
+#builder-report-print > table th.subtitle{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#builder-report-print > table{
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing:0;
+    border: 2px solid black;
+}
+#builder-report-print > table.border{
+    border-top: none;
+}
+/* #builder-report-print > table.main{
+    margin-bottom: 20px;
+} */
+#builder-report-print > table img{
+    max-height: 25px;
+}
+

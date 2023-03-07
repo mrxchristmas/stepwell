@@ -1,0 +1,107 @@
+#moduleman-wrapper{
+    justify-content: flex-start;
+}
+.moduleman-company-list{
+    width: calc(300px - 20px);
+    max-height: calc(100% - 50px);
+    height: calc(100% - 50px);
+    min-height: calc(100% - 50px);
+    padding: 10px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.moduleman-company-list > input{
+    width: 100%;
+    font-size: 1.2em;
+    padding-left: 5px;
+}
+.moduleman-company-widget-con{
+    width: 100%;
+    height: calc(100% - 30px);
+    min-height: calc(100% - 30px);
+    /* background-color: red; */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.moduleman-company-widget{
+    width: calc(100% - 30px);
+    min-height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+.moduleman-company-modules{
+    width: calc(300px - 20px);
+    max-height: calc(100% - 50px);
+    height: calc(100% - 50px);
+    min-height: calc(100% - 50px);
+    padding: 10px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+.moduleman-company-modules-widget-con{
+    width: 100%;
+    height: calc(100% - 30px);
+    min-height: calc(100% - 30px);
+    /* background-color: red; */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.moduleman-company-modules-widget{
+    width: calc(100% - 30px);
+    min-height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.moduleman-module-list{
+    width: calc(300px - 20px);
+    max-height: calc(100% - 50px);
+    height: calc(100% - 50px);
+    min-height: calc(100% - 50px);
+    padding: 10px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+.moduleman-module-list-widget-con{
+    width: 100%;
+    height: calc(100% - 30px);
+    min-height: calc(100% - 30px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.moduleman-module-list-widget{
+    width: calc(100% - 30px);
+    min-height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    z-index: 100;
+    max-width: calc(300px - 40px);
+}

@@ -1,0 +1,188 @@
+.project-sameline{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* .project-create-widget-con{
+    width: calc(600px - 20px);
+    min-height: 300px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 25px;
+}
+.project-create-widget-con > input{
+    width: 80%;
+    height: 30px;
+    font-size: 1.1em;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.project-create-widget-footer{
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+    .project-create-widget-footer > button{
+        width: 100%;
+        font-size: 1.2em;
+        margin-top: 10px;
+    } */
+.project-manage-list-con{
+    width: calc(300px - 20px);
+    min-width: 200px;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.project-manage-list-con > input{
+    width: 95%;
+    height: 30px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.project-manage-list{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.project-manage-list-widget{
+    width: calc(100% - 40px);
+    min-height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.project-manage-view-content{
+    width: calc(100% - 320px);
+    min-width: calc(600px - 20px);
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+.project-manage-view-con{
+    width: calc(600px - 20px);
+    min-width: calc(600px - 20px);
+    min-height: 200px;
+    height: 200px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 20px;
+}
+.project-manage-connect-con{
+    width: calc(600px - 20px);
+    min-width: calc(600px - 20px);
+    min-height: 120px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+
+#project-view-name{
+    font-size: 2em;
+    padding: 10px;
+    font-weight: bold;
+    /* background-color: blue; */
+    position: absolute;
+    right: 0px;
+    padding-right: 20px;
+}
+#project-view-id{
+    font-size: 1.3em;
+    padding: 5px;
+    font-weight: bold;
+    /* background-color: blue; */
+    position: absolute;
+    right: 0px;
+    top: 30%;
+    padding-right: 20px;
+}
+.project-manage-view-con > button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50%;
+    font-size: 1.5em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    cursor: pointer;
+}
+.project-manage-view-con > button > i {
+    font-size: 1.4em;
+    padding: 0px 20px;
+    transform: rotate(45deg);
+}
+.project-view-owner{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 30%;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+#project-view-ownername{
+    font-size: 1.3em;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+#project-view-ownerphoto{
+    height: 150px;
+    width: 150px;
+    max-height: 70%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+#project-connect-title{
+    font-size: 2em;
+    padding: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,129 @@
+.docbuilder-sameline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.width70{
+    width: 70%;
+}
+.define-con-header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.define-con-header > button{
+    font-size: 1.4em;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.catlist{
+    height: calc(100% - 100px);
+    max-height: calc(100% - 100px);
+    width: 90%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.catlist > span{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.catlist-widget-form{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: scroll;
+}
+.catlist-widget-con{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: red; */
+    position: relative;
+    border: thin dotted white;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.catlist-widget-con > span{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 50%;
+}
+.catlist-widget-con > input{
+    width: calc(100% - 200px);
+    height: 60%;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+.catlist-widget-con > button{
+    /* width: 50%; */
+    height: 60%;
+    min-width: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.catlist-widget-con > i{
+    font-size: 1.3em;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* #dater{
+    height: 30px;
+    width: 150px;
+    max-width: 150px;
+    background-color: red;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#dater input{
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    padding-left: 10px;
+}
+#dater i{
+    position: absolute;
+    right: 10px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} */
+
+/* #datepicker-datepicker{
+    background-color: red;
+} */

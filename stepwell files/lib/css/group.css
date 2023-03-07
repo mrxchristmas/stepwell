@@ -1,0 +1,486 @@
+
+.group-sameline{
+    display: flex;
+    flex-direction: row;
+}
+
+.group-create-widget-con{
+    width: 600px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 25px;
+}
+.group-create-widget-con > h2{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+.group-create-widget-con > input{
+    width: 80%;
+    height: 30px;
+    font-size: 1.1em;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+.group-create-widget-footer{
+    position: absolute;
+    bottom: 0px;
+    /* justify-self: flex-end; */
+    width: 80%;
+    min-height: 60px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-left: 10%;
+}
+    .group-create-widget-footer > button{
+        width: 100%;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+.group-manage-list-con{
+    width: calc(300px - 20px);
+    min-width: 200px;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-self: flex-start;
+}
+.group-manage-list-con > input{
+    width: 95%;
+    height: 30px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.group-manage-list{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.group-manage-list-widget{
+    width: calc(100% - 40px);
+    min-height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.group-manage-list-widget.active{
+    font-weight: bold;
+    transform: scale(1.05);
+}
+
+
+
+.group-manage-view-content{
+    width: calc(100% - 320px);
+    min-width: calc(100% - 320px);
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.group-manage-view-con{
+    width: calc(600px - 20px);
+    min-width: calc(600px - 20px);
+    min-height: 200px;
+    height: 200px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 20px;
+}
+.group-manage-connect-con{
+    width: calc(600px - 20px);
+    min-width: calc(600px - 20px);
+    height: auto;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+
+#group-view-name{
+    font-size: 2em;
+    padding: 10px;
+    font-weight: bold;
+    /* background-color: blue; */
+    position: absolute;
+    right: 0px;
+    padding-right: 20px;
+}
+.group-view-id-con{
+    position: absolute;
+    right: 0px;
+    top: 30%;
+    padding-right: 20px;
+    /* background-color: blue; */
+}
+.group-view-id-con > i{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#group-view-id{
+    font-size: 1.3em;
+    padding: 5px;
+    font-weight: bold;
+    user-select: text;
+}
+#group-view-ownername{
+    font-size: 1.3em;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+#group-view-ownerphoto{
+    height: 150px;
+    width: 150px;
+    max-height: 70%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.group-manage-view-con > button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50%;
+    font-size: 1.5em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    cursor: pointer;
+}
+.group-manage-view-con > button > i {
+    font-size: 1.9em;
+    padding: 0px 20px;
+    /* transform: rotate(45deg); */
+}
+.group-view-owner{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 30%;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+#group-connect-title{
+    font-size: 2em;
+    padding: 10px;
+    font-weight: bold;
+}
+#group-connect-search-con{
+    width: 80%;
+    height: 30px; 
+    margin-top: 10px;
+}
+#group-connect-search-con > input{
+    width: 70%;
+    height: 100%;
+    font-size: 1.1em;
+    padding-left: 10px;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.75);
+    border: none;
+}
+#group-connect-search{
+    width: 30%;
+    height: 100%;
+    /* border: none;  */
+    cursor: pointer;
+}
+.group-connect-search-list{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    display: none;
+}
+.group-connect-search-list > select{
+    width: 70%;
+    height: 100%;
+    padding-left: 5px;
+}
+.group-connect-search-list > button{
+    width: 30%;
+    height: 100%;
+    /* font-weight: bold;     */
+    cursor: pointer;
+}
+
+
+.group-launch-view-content{
+    width: calc(600px - 20px);
+    min-width: calc(600px - 20px);
+    height: calc(100% - 20px);
+}
+.group-launch-list-con{
+    width: calc(300px - 20px);
+    min-width: 200px;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.group-launch-list-con > input{
+    width: 95%;
+    height: 30px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.group-launch-list{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.group-launch-list-widget{
+    width: calc(100% - 40px);
+    min-height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.group-launch-delete-con{
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.group-launch-delete-con > button{
+    width: 300px;
+}
+.group-launch-remove-con{
+    width: 100%;
+    height: 230px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.group-launch-member{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 30%;
+    height: calc(90% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: red; */
+}
+.group-launch-member > img{
+    max-height: 80%;
+}
+.group-launch-remove-con > button{
+    /* max-height: 80%; */
+    width: 300px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+#group-launch-delete-id{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#group-launch-delete-name{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+
+.group-manage-view-projects{
+    width: calc(100% - 330px);
+    min-width: calc(100% - 330px);
+    padding: 10px;
+    padding-top: 0px;
+    margin-left: 10px;
+    height: calc(100% - 10px);
+    /* background-color: red; */
+    display: block;
+}
+.group-manage-view-projects.hidden{
+    display: none;
+}
+.group-manage-view-projects-widget{
+    width: 300px;
+    min-width: 300px;
+    height: auto;
+    padding: 20px;
+    float: left;
+    background-color: var(--SUB_COLOR);
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.group-manage-view-projects-widget > span{
+    text-align: center;
+}
+.group-manage-view-projects-widget > .projectname{
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.group-manage-view-projects-widget > .projectid{
+    font-size: 0.9em;
+    /* font-weight: bold; */
+}
+.group-manage-view-projects-widget > .owner{
+    font-size: 1.1em;
+}
+.group-manage-view-projects-widget > .status{
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: var(--MAIN_COLOR);
+    font-weight: bold;
+    border-radius: 10px;
+}
+.group-manage-view-projects-widget > .action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.group-manage-view-projects-widget > .action > button{
+    min-width: 100px;
+    margin: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+}
+.group-manage-view-projects-widget > .action > button.reject{
+    background-color: var(--RED_PALETTE);
+}
+.group-manage-view-projects-widget > .action > button.approve{
+    background-color: var(--GREEN_PALETTE);
+}
+.group-manage-view-projects-widget > .action > button.remove{
+    background-color: var(--YELLOW_PALETTE);
+}
+
+
+.group-manage-add-project{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group-manage-add-project.hidden{
+    display: none;
+}
+.group-manage-add-project > .form{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-color: var(--SUB_COLOR);
+    border-radius: 15px;
+    position: relative;
+}
+.group-manage-add-project > .form > input{
+    width: 300px;
+    min-width: 400px;
+    padding: 3px 5px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.group-manage-add-project > .form > select{
+    width: 300px;
+    min-width: 400px;
+    padding: 3px 5px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.group-manage-add-project > .form > button{
+    width: 300px;
+    min-width: 400px;
+    padding: 3px 5px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.group-manage-add-project > .form > i{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}

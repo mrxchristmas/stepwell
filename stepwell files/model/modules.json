@@ -1,0 +1,18 @@
+{
+    "mod1" : {
+        "name" : "Pro Flow",
+        "ui" : "proflow"
+    },
+    "mod3" : {
+        "name" : "Doc Flow",
+        "ui" : "docflow"
+    },
+    "mod4" : {
+        "name" : "Skid Builder",
+        "ui" : "skidbuilder"
+    },
+    "mod5" : {
+        "name" : "Process Builder",
+        "ui" : "processbuilder"
+    }
+}

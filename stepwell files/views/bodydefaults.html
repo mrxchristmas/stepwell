@@ -1,0 +1,158 @@
+<div id="report" class='tempReport'>
+    <span>Updating Please Wait</span>
+    <i class="fas fa-spinner"></i>
+</div>
+<div id="refreshReport" class='tempRefreshReport'>
+    <span>Updating Please Wait</span>
+    <i class="fas fa-spinner"></i>
+</div>
+<div id="refreshReport" class='tempRefreshReport'>
+    <span>Updating Please Wait</span>
+    <i class="fas fa-spinner"></i>
+</div>
+<div id="notification" class="notification-con btn-shadow color-sc">
+    <div id="notification-close">
+        <i class="fas fa-caret-right"></i>
+    </div>
+    <h2>Notification Title</h2>
+    <span>Notification Message </span>
+</div>
+<div id="action">
+    <div class="actionbar btn-shadow">
+        <h2 id="action-title">Confirm Delete Group?</h2>
+        <div class="action-pick-con">
+            <span id="action-select-yes">yes<i class="fas fa-check-circle"></i></span>
+            <span id="action-select-no">no<i class="fas fa-times-circle"></i></span>
+        </div>
+    </div>
+</div>
+<div id="profile">
+    <div class="profile-con color-sc shadow">
+        <img id="profile-img" src="lib/images/avatardefault.png">
+        <div class="profile-img-save hidden">
+            <button id="profile-img-upload" class="save">Save</button>
+            <button id="profile-img-cancel" class="cancel">Cancel</button>
+        </div>
+        <span id="profile-name">Name1</span>
+        <div class="profile-footer">
+            <input id="profile-upload" onchange="profile_upload()" type="file" accept="image/x-png,image/gif,image/jpeg" style="display: none;">
+            <button onclick="$('#profile-upload').click();"  class="btn-shadow">Upload Profile Picture</button>
+            <button id="profile-logout" class="btn-shadow">Logout</button>
+        </div>
+    </div>
+</div>
+<div id="alert">
+    <div class="alert-con color-sc shadow">
+
+        <div class="alert-con-widget">
+            <i class="fas fa-trash alert-con-widget-delete"></i>
+            <span class="alert-con-widget-title">Proofreader Request</span>
+            <div class="alert-con-widget-message">
+                <span>You have been invited as a proofreader for the document D-123012041. You may not decline this request for whatever reason you may have.</span>
+                <button class="btn-shadow">View in Docuflow</button>
+            </div>
+        </div>
+
+        <div class="alert-con-widget">
+            <i class="fas fa-trash alert-con-widget-delete"></i>
+            <span class="alert-con-widget-title">New Task Assignment</span>
+            <div class="alert-con-widget-message">
+                <span>You have been assigned to a new Task. Please Review. </span>
+                <button class="btn-shadow alert-con-widget-button">View in Tasks</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="header">
+    <div class="header-left">
+        <i id="complains-open" class="fas fa-concierge-bell header-widget"></i>
+        <i id="modules-open" class="fas fa-chart-pie"></i>
+        <i id="home-open" class="fas fa-home"></i>
+        <i id="profile-open" class="fas fa-user-circle header-profile header-widget"></i>
+        <i id="alert-open" class="fas fa-bell header-widget"></i>
+        <i id="logout-open" onclick="logout();" class="fas fa-power-off header-logout header-widget"></i>
+        <!-- <i class="fas fa-sliders-h header-settings header-widget"></i> -->
+    </div>
+    <div class="header-tab-con">
+        <!-- <div class="header-tab header-tab-inactive">
+            <i class="fas fa-times header-tab-close"></i>
+            <span class="header-tab-title">Dashboard - iagsdjhgajgh akhjsdghjasghj akhsdkas</span>
+        </div>
+        <div class="header-tab header-tab-active">
+            <i class="fas fa-times header-tab-close "></i>
+            <span class="header-tab-title">Docflow jghgs jksgh lhjkaslh kllkd</span>
+        </div> -->
+        <img id="header-tab-company-logo" src="" alt="">
+        <!-- lib/images/companydefault.png -->
+        <span id="header-tab-company-name">Stepwell</span>
+        <span id="header-tab-module-name"></span>
+    </div>
+</div>
+
+<div id="validate">
+    <div class="validate-con color-sc btn-shadow">
+        <i id="validate-close" class="fas fa-times-circle"></i>
+        <h2 id="action-title">Please Validate your Credentials</h2>
+        <input id="validate-id" type="text" placeholder="Account ID" disabled>
+        <input id="validate-email" type="text" placeholder="Email Address">
+        <input id="validate-password" type="password" placeholder="Account Password">
+
+        <button id="validate-submit" class="btn-shadow">Validate</button>
+
+    </div>
+</div>
+<div id="modules">
+    <div class="modules-con color-main">
+        <div id="modules-proflow" class="modules-widget btn-shadow">
+            <i class="fas fa-chart-bar modules-widget-icon"></i>
+            <span class="modules-widget-title">Pro Flow</span>
+        </div>
+
+        <div id="modules-docbuilder" class="modules-widget btn-shadow">
+            <i class="fas fa-file-signature modules-widget-icon"></i>
+            <span class="modules-widget-title">Doc Builder</span>
+        </div>
+
+        <div id="modules-docflow" class="modules-widget btn-shadow">
+            <i class="fab fa-stack-overflow modules-widget-icon"></i>
+            <span class="modules-widget-title">Doc Flow</span>
+        </div>
+        
+        <div id="modules-skidbuilder" class="modules-widget btn-shadow">
+            <i class="fas fa-chart-line modules-widget-icon"></i>
+            <span class="modules-widget-title">Skid Builder</span>
+        </div>
+
+        <div id="modules-processbuilder" class="modules-widget btn-shadow">
+            <i class="fas fa-shapes modules-widget-icon "></i>
+            <span class="modules-widget-title">Process Builder</span>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div id="reportV2" >
+    <span>Updating Please Wait</span>
+    <i class="fas fa-spinner"></i>
+</div>
+
+
+<div id="complains">
+    <div class="complains-con color-sc shadow">
+        <span class="title">How can we help you today?</span>
+        <span class="context">Please select which department</span>
+        <select name="" id="complains-type">
+            <option value="">test1</option>
+            <option value="">test2</option>
+            <option value="">test3</option>
+            <option value="">test4</option>
+        </select>
+        <span class="context">Describe your Issue here in Detail.</span>
+        <textarea name="" id="complains-message" maxlength="500" placeholder="Maximum Length is 500"></textarea>
+        <button id="complains-submit">Send Ticket</button>
+    </div>
+</div>
