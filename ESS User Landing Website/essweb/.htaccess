@@ -1,0 +1,6 @@
+
+AddType application/javascript .json
+AddType application/json .json
+AddType text/json .json
+
+

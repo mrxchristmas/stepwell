@@ -1,0 +1,38 @@
+[
+    {
+        "gid" : "g1",
+        "img" : "lib/images/pageimages/wedesign.jpeg",
+        "title" : "WE DESIGN",
+        "subtitle" : "Pressure Vessels and Custom Skid",
+        "content" : "<b>ESS</b> is capable of designing custom equipment as per client need and follow industry best practices for design, fabrication and commissioning.  We can execute projects with RFQ starting points from specification to P&ID’s to quality turnover packages.",
+        "link" : "spage2_1"
+    },{
+        "gid" : "g2",
+        "img" : "lib/images/pageimages/filtervessel.jpeg",
+        "title" : "FILTER VESSELS",
+        "subtitle" : "Bag, Cartriges & Stainer Style",
+        "content" : "<b>ESS</b> focus is directed to process vessels demanding high levels of finishing through to technology led equipment packages",
+        "link" : "spage_filtvess"
+    },{
+        "gid" : "g3",
+        "img" : "lib/images/pageimages/webuild.jpeg",
+        "title" : "WE BUILD",
+        "subtitle" : "Build with Confidence",
+        "content" : "We are not just a fabricator but are designers! We are offering process equipment that are solving unique challenges of industry.",
+        "link" : "spage2_2"
+    },{
+        "gid" : "g4",
+        "img" : "lib/images/pageimages/processtank.jpeg",
+        "title" : "SANITARY PRESSURE TANKS",
+        "subtitle" : "Biopharma & Food Industry",
+        "content" : "<b>ESS</b> Corp offers a variety of engineered systems to provide complete \"turn-key\" customer solutions",
+        "link" : "spage_pharma"
+    },{
+        "gid" : "g5",
+        "img" : "lib/images/pageimages/customskid.jpeg",
+        "title" : "Innovative Products",
+        "subtitle" : "Clean in Place Filtration System, Dual Stage TFF system, Integrated Nanofiltration system, Chromatography skid with flow splitting capability",
+        "content" : "<b>ESS</b> TFF skid is designed to be used with any manufacturers TFF holder or Cassette.",
+        "link" : "spage_tffskid"
+    }
+]

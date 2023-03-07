@@ -1,0 +1,949 @@
+[
+    {
+        "link" : "spage2_1",
+        "content" : {
+            "title" : "WE DESIGN",
+            "data" : [
+                {
+                    "type" : "image",
+                    "data" : "lib/images/pageimages/wedesign.jpeg"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b>'s Design Department has the capability to take mechanical designs, as well as to adapt customer's drawings, calculations and revisions, and transform them into their workflow using the latest computer softwares. We make <b>2D</b> and <b>3D</b> design as required based on project need.  They can offer vessels manufactured to their internal specification or to specifications issued by the customer. "
+                },{
+                    "type" : "title",
+                    "data" : "Stainless Steel Sanitary"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> is a design build company manufacturing process equipment for multiple industries including Biotech/Food Industry. We are in the business for last 20 years and are capable of working with clients and engineering firms from various stages of design and provide the quality build equipment. Our team has constituted of Project Managers, Engineers, Designers, Quality Assurance Specialists and fabricators (that includes welders, fitter, machinist, testers and general helpers). "
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> is capable of designing custom equipment as per client need and follow industry best practices for design, fabrication and commissioning.  We can execute projects with RFQ starting points from specification to P&ID’s to quality turnover packages."
+                },{
+                    "type" : "space",
+                    "data" : ""
+                },{
+                    "type" : "title",
+                    "data" : "Pressure Vessels - Stainless Steel & Other Metals"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> manufactures filter vessels such as bags and cartridge filters as well as strainers and self-cleaning filters with permanent media. We produce filters as standalone units, but also automated, packaged filtration systems on the skid with controls. Our standard filters are produced from commonly used materials like Carbon and Stainless Steel. Vessels are also made of exotic materials like Hastelloy in various grades, Titanium, Carpenter 20, and are all available upon request. "
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> is capable of designing custom vessels as per client need and follow industry best practices for design, fabrication and commissioning.  We can execute projects with RFQ starting points from specification to fabrication drawings to ITP."
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage2_2",
+        "content" : {
+            "title" : "WE BUILD",
+            "data" : [
+                {
+                    "type" : "image",
+                    "data" : "lib/images/pageimages/webuild.jpeg"
+                },{
+                    "type" : "title",
+                    "data" : "Build with Confidence"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> offers products and services through a world-wide network of distributors and industrial sales organizations, as well as through direct sales to end users. "
+                },{
+                    "type" : "text",
+                    "data" : "Our long-time experience in pressure vessels and piping systems shell, allows us to provide our customers with high quality products, at cost saving prices and exceptional service. We are in the business for last 20 years and are capable of working with clients and engineering firms from various stages of design and provide the quality build equipment. Our team has constituted of Project Managers, Engineers, Designers, Quality Assurance Specialists and fabricators (that includes welders, fitter, machinist, testers and general helpers). "
+                },{
+                    "type" : "text",
+                    "data" : "ESS Corp offers a variety of engineered systems to provide complete \"turn-key\" customer solutions. We have partners in process, electrical, structural and control system design as well as significant in house mechanical design capabilities."
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> fully automated, skid based vessel solutions have been used worldwide and include multi vessel self cleaning systems for cooling water that do not use wedge wire or incorporate any mechanical rotating components. Our screen technology allows for continuous washing and is ideal for the removal or Zebra Mussel larvae and other \"fines\" in the 20-100 micron range."
+                },{
+                    "type" : "text",
+                    "data" : "For the convenience of our clients, we stock some finished units and spare parts, as well as consumables, required for everyday use of our products."
+                },{
+                    "type" : "text",
+                    "data" : "Apart from pressure vessels fabrication, we fabricate in- house structural fabrication of frames and platforms, pipe welding, rolling and machined parts. ESS conforms to all the relevant codes that includes ASME pressure vessel code, ASME piping code, NBA accreditation, CRN, CSA and R stamps for repairs and alterations and CRNs "
+                },{
+                    "type" : "text",
+                    "data" : "<span link=\"contact\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Give us a call</span> today for a solution to your unique engineering problem!"
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage2_3",
+        "content" : {
+            "title" : "WE TEST",
+            "data" : [
+                {
+                    "type" : "image",
+                    "data" : "lib/images/pageimages/wetest.jpeg"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> is committed to quality not in terms of design or build but also in terms of comprehensive testing. Our testing team is made up of Process Engineer, Validation Specialist and Quality Manager. ESS provide comprehensive protocols preapproved by client for Factory Acceptance Testing (FAT) or Site Acceptance Test (SAT). Our protocol also covers the risk assessment and detail description of each component and their functionality that helps client to have a clear understanding of testing protocol."
+                },{
+                    "type" : "text",
+                    "data" : "Our long-time experience in pressure vessels and piping systems shell, allows us to provide our customers with high quality products, at cost saving prices and exceptional service. We are in the business for last 20 years and are capable of working with clients and engineering firms from various stages of design and provide the quality build equipment. Our team has constituted of Project Managers, Engineers, Designers, Quality Assurance Specialists and fabricators (that includes welders, fitter, machinist, testers and general helpers). "
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> is also capable of developing client specific protocol as per their requirement that also include Validation Protocol (subject to template and SOP provided by client), Specifications (FS, DS, SDS) and Risk Assessments (RA)."
+                },{
+                    "type" : "text",
+                    "data" : "Come to <b>ESS</b> for your custom design skid need and ensure that your skid is complaint to stringent quality and testing parameters."
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage2_4",
+        "content" : {
+            "title" : "REPAIR ALTERATION & OTHER SERVICES",
+            "data" : [
+                {
+                    "type" : "image",
+                    "data" : "lib/images/pageimages/repair.jpeg"
+                },{
+                    "type" : "title",
+                    "data" : "Design Capabilities"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> provides quality repair service for pressure vessels and custom skid. ESS is accredited with R stamp for repair and alteration of boilers, pressure vessels, and other pressure retaining items. We also provide TSSA inspection and registration services post repairs or alteration."
+                },{
+                    "type" : "title",
+                    "data" : "Welding Services"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> fabrication, repair and alteration of pressure vessel is done by ASME Sec IX qualified welders using welding procedures qualified per the same standard. Welding processes include SMAW, GMAW, GTAW, FCAW, and SAW."
+                },{
+                    "type" : "title",
+                    "data" : "Convenience"
+                },{
+                    "type" : "text",
+                    "data" : "For convenience of our client, we also stock some finished unit, spare-parts and consumables required for faster turnaround and for everyday use of our products."
+                },{
+                    "type" : "imagecontain",
+                    "data" : "lib/images/stamps/usme-r.png"
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_qualitysystems",
+        "content" : {
+            "title" : "QUALITY",
+            "data" : [
+                {
+                    "type" : "image",
+                    "data" : "lib/images/pageimages/qualitycontrol.jpeg"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> is committed to maintaining the highest standards of quality and safety in its project design, build, and commissioning practices. ESS strictly adheres to written operating procedures defining activities, responsibilities and required approvals to ensure adequate process controls and safe practices to meet the specific needs of each client’s project. On-going design review, As Built walk downs, routine in-process quality inspections, safety at job, accuracy of documentation and simplified testing approach is part of work culture at ESS.  "
+                },{
+                    "type" : "text",
+                    "data" : "Our QA team includes inspectors for material receiving inspection, fabrication inspection, hydrotesting, Non-Destructive Testing and borescope weld inspection."
+                },{
+                    "type" : "text",
+                    "data" : "Involvement of client is paramount for any project to be successful and ESS ensure to manage the expectations of client and involve them throughout the process. Any deviations uncovered during these reviews will be addressed to the satisfaction of the Client prior to release for shipment."
+                },{
+                    "type" : "text",
+                    "data" : "Our team is also capabable of providing validation documents as per client’s requirement and template and personel training (subject to client’s request at extra cost)."
+                },{
+                    "type" : "list2",
+                    "caption" : "DOCUMENTATION MATRIX",
+                    "data" : {
+                        "right" : {
+                            "title" : "Sanitary Process Skid ",
+                            "text" : "Our Quality Program includes, such as:",
+                            "data" : [
+                                "Specification Review (URS, FS, DDS)",
+                                "Detailed Design Review (As built, P&ID)",
+                                "Project-specific SOPs",
+                                "Welders Certificates and Weld Procedures",
+                                "Weld and Material Inspection ",
+                                "NDE testing and Boroscope Inspections",
+                                "CIP (Riboflavin) Procedure/Report",
+                                "Surface Finish Test/ Map/Certification",
+                                "Registration for Code Vessels",
+                                "Mill Test Reports (MTR), Certificates of Compliance, Material Log",
+                                "System Slope Verification",
+                                "Passivation ",
+                                "Factory Acceptance Testing",
+                                "Site Acceptance Testing",
+                                "Turnover Package",
+                                "Validation Package",
+                                "Complete Documentation for Validation (Standard or Custom per Clients Requirements)",
+                                "Weld Procedures (WPS)",
+                                "Weld Maps & Logs",
+                                "Dye Penetrant and X-Ray Log",
+                                "Passivation Procedure/Certification",
+                                "Electropolishing Procedure/Certification",
+                                "Saline Procedure/Report",
+                                "Hydrostatic Testing Procedure/Report",
+                                "CIP (Riboflavin) Procedure/Report",
+                                "Required Calculations (pressure, temperature, seismic, wind load)",
+                                "Component catalog cut sheets, spare parts list, operation and maintenance manuals"
+                            ]
+                        },
+                        "left" : {
+                            "title" : "Pressure Vessels",
+                            "text" : "Our Quality Program includes, such as:",
+                            "data" : [
+                               "Specification Review ",
+                               "Detailed Design Review (As built Fabrication Drawings)",
+                               "Welders Certificates and Weld Procedures",
+                               "Weld and Material Inspection ",
+                               "Mill Test Reports (MTR), Certificates of Compliance, Material Log",
+                               "NDE testing ",
+                               "System Slope Verification",
+                               "Passivation and Boroscope Inspections (if requested)",
+                               "Documentations (ITP)",
+                               "Registration for Code Vessels",
+                               "Surface Treatment – Passivation, Sand blasting, painting, etc"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },{
+        "link" : "spage_cip",
+        "content" : {
+            "title" : "CLEAN IN PLACE FILTRATION SYSTEM (CIP)",
+            "data" : [
+                {
+                    "type" : "image",
+                    "data" : "lib/images/pageimages/mpfirst.jpeg"
+                },{
+                    "type" : "text",
+                    "data" : "<b>ESS</b> clean in place system is designed with single or multiple tank system. We can design system from very simple manual system used in food industry to completely automated PLC based system designed for complex CIP recipes. Apart for FS and DS, we have validation team to support SAT and CIP cycle development for complex operations. We can design system with high turndown ratio to run CIP to multiple service equipment that require different flow and cleaning recipes from one system. We can also help in integrating system with data management system at client site. Typical, specification of our CIP system is provided below:"
+                },{
+                    "type" : "list",
+                    "data" : [
+                            "SS316L wetted tank (SS304 available on demand); <20 Ra or Electropolished Surface finish with smooth welds with tank bottom valve with piping post discharge pump",
+                            "Level Transmitter or Load cell on Tank",
+                            "Mounted Temperature Transmitter with digital display on the tank shell to measure temperature. Optional in-line temperature element",
+                            "Sanitary pump for supply and return ",
+                            "Flowmeter with local display or on HMI.",
+                            "Sanitary pressure transmitter on discharge of pump",
+                            "Conductivity meter with local display or on HMI. Optional in-line return conductivity",
+                            "Recirculation loop for mixing chemical with option of Electric Heater or Sanitary Heat Exchanger for temperature control in SS enclosure (washdown duty or NEMA rated)",
+                            "Capability for CIP recirculation back to tank",
+                            "Sanitary diaphragm valve or butterfly valves",
+                            "304 SS frame with large casters with small footprint for mobility",
+                            "Space for putting chemical dosing pump on skid (dosing pump optional)",
+                            "Adjustable feet for leveling",
+                            "NDE testing, Passivation, FAT, SAT and turnover package ",
+                            "Diaphragm, Gasket and O-rings – EPDM, Teflon, Viton, etc",
+                            "Automation with PLC control",
+                            "Option for Data Recording"
+                    ]
+                },{
+                    "type" : "table",
+                    "data" : {
+                        "caption" : "Selection guide for CIP Models – CIP ABC",
+                        "thead" : ["Model", "1", "2",  "3" ],
+                        "tbody" : [
+                            {
+                                "data" : [
+                                    "A",
+                                    "Tank CIP System",
+                                    "Tank CIP System",
+                                    "Multiple Tank CIP System"
+                                ]
+                            },{
+                                "data" : [
+                                    "B",
+                                    "Manual System",
+                                    "Semi Automatic ",
+                                    "PLC Programming"
+                                ]
+                            },{
+                                "data" : [
+                                    "C",
+                                    "No Data Recording",
+                                    "Local Data Recording",
+                                    "Data Management & Data Storage"
+                                ]
+                            }
+                        ],
+                        "tfoot" : []
+                    }
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_pharma",
+        "content" : {
+            "title" : "PHARMACEUTICAL & BIOTECHTONOLGY",
+            "data" : [
+                {
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/wetest.jpeg"
+                },{
+                    "type" : "text",
+                    "data" : "Requirements of Pharma & Biotech Industry has always been stringent from quality perspective and we at ESS are proud to provide quality process equipment and skid. Our regular product portfolio includes:"
+                },{
+                    "type" : "text",
+                    "data" : [
+                        "1. <span link=\"spage_pressvess\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Process Tanks</span>",
+                        "&emsp; a. Mixing Tanks",
+                        "&emsp; b. Holding Tanks",
+                        "&emsp; c. Pressurized process tanks",
+                        "&emsp; d. Non pressurized tanks",
+                        "2. <span link=\"spage_cip\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">CIP System</span>",
+                        "3. <span link=\"spage_heat\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Heat Exchangers</span>",
+                        "4. <span link=\"spage_tff\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">TFF skid</span>",
+                        "5. <span link=\"spage_cromskid\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Chromatography Columns</span>",
+                        "6. <span link=\"spage_cromskid\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Standard Chromatography Skid</span> ",
+                        "7. <span link=\"mnav2_1_10\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Filter housings</span>",
+                        "8. Mobile and custom automated skid"
+                    ]
+                },{
+                    "type" : "text",
+                    "data" : "We are not just a fabricator but are designers! We are offering process equipment that are solving unique challenges of industry. Our portfolio of innovative products includes:"
+                },{
+                    "type" : "text",
+                    "data" : [
+                        "1. <span link=\"spage_cip\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Clean in Place Filtration System</span> ",
+                        "2. <span link=\"spage_tffskid\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Dual Stage TFF system</span> ",
+                        "3. <span link=\"mnav2_1_9\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Integrated Nanofiltration system</span> ",
+                        "4. <span link=\"spage_cromskid\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Chromatography skid</span> with flow splitting capability"
+                    ]
+                },{
+                    "type" : "space",
+                    "data" : ""
+                },{
+                    "type" : "text",
+                    "data" : "Visit our <span style=\"text-decoration: underline; color: blue;\" link=\"mnav2\" class=\"navbar-popup-widget-c\">Application page</span> to explore these innovative skids designed and provided by ESS."
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_food",
+        "content" : {
+            "title" : "FOOD & BEVERAGES",
+            "data" : [
+                {
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/customskid.jpeg"
+                },{
+                    "type" : "text",
+                    "data" : "Food and Beverages industry has always struggled to make a balance between costly sanitary equipment and meeting a hygiene requirement. We understand this difference and has process equipment at lower cost to provide unique solutions. Our product portfolio includes:"
+                },{
+                    "type" : "text",
+                    "data" : [
+                        "1. <span link=\"spage_pressvess\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Process Tanks</span>",
+                        "&emsp; a. Large Scale Tanks",
+                        "&emsp; b. Mixing Tanks",
+                        "&emsp; c. Holding Tanks",
+                        "&emsp; d. Pressurized process tanks",
+                        "&emsp; e. Non pressurized tanks",
+                        "2. <span link=\"spage_cip\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">CIP System</span>",
+                        "3. <span link=\"spage_heat\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Heat Exchangers</span>",
+                        "4. <span link=\"mnav2_1_10\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Filter housings</span>",
+                        "5. Piping modules",
+                        "6. Mobile and custom automated skid"
+                    ]
+                },{
+                    "type" : "text",
+                    "data" : "We are not just a fabricator but are designers! We are offering process equipment that are solving unique challenges of industry. Our portfolio of innovative products includes:"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "1. <span style=\"text-decoration: underline; color: blue;\" link=\"mnav2_1_7\" class=\"navbar-popup-widget-c\">Clean in Place Filter</span> – Resolves issue with frequent changeover of filters and clogging of filters reducing low manpower requirement. Alternate to costly centrifugation process."
+                    ]
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_gas",
+        "content" : {
+            "title" : "ENERGY, OIL & NATURAL GAS",
+            "data" : [
+                {
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/gasfiler.JPG"
+                },{
+                    "type" : "text",
+                    "data" : "Energy, Oil and Natural gas is one of the major business sectors of ESS, with clients like Natural Gas companies for various applications, up-stream, transport outfits, as well as distribution companies. ESS products are utilized by major companies such as 3M, Petro Canada, Pall Corporation, Enbridge, Spectra Energy/Union Gas, Shell, Exxon Mobil, GM, Toyota, Ford, Chrysler, Honda, BASF, Bayer, Talisman Energy, Husky, NESTLE Water and many others. The company has also developed components for pressure vessels considered to be among the best in the industry, such as a single lever quick opening closure. Besides typical pressure vessels, the company has been supplying customers other products such as pad type <span style=\"text-decoration: underline; color: blue;\" link=\"mnav2_1_6\" class=\"navbar-popup-widget-c\">strainers</span>, fabricated basket strainers and filter screens."
+
+                    
+                },{
+                    "type" : "text",
+                    "data" : "Our Product portfolio includes:"
+                },{
+                    "type" : "text",
+                    "data" : [
+                        "1. <span link=\"mnav2_1\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Filter Vessel</span> ",
+                        "&emsp; a. Code and Non-code Vessel",
+                        "&emsp; b. Multiple applications – Solid – Liquid, Liquid-Gas, etc.",
+                        "&emsp; c. Closure Systems",
+                        "&emsp; d. Custom Designed Vessels on skid",
+                        "&emsp; e. <span link=\"spage_cip\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Clean in Place Filtration System</span> ",
+                        "&emsp; f. <span link=\"mnav2_1_1\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Filter media</span>",
+                        "&emsp; g. <span link=\"spage2_4\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Spare-parts, Repairs</span>"
+                    ]
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_water",
+        "content" : {
+            "title" : "WATER & WATER WASTE TREATMENT",
+            "data" : [
+                {
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/zebrajet.jpg"
+                },{
+                    "type" : "text",
+                    "data" : "ESS provide filtration solution for water and wastewater system. We are proud supplier of Evoqua filters to Pall Corporation. We also work with municipalities to provide water filter solution either from rivers for drinking purpose or for sewage treatment. Water is different at everyplace and so the solutions shall be catered to each individual place. This is where ESS is helpful to provide custom solutions. Our portfolio includes:"
+                },{
+                    "type" : "text",
+                    "data" : [
+                        "1. <span link=\"spage_filtvess\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Filter vessels</span>",
+                        "2. <span link=\"mnav2_1_1\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Filter Media</span>"
+                    ]
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_industryauto",
+        "content" : {
+            "title" : "INDUSTRIAL & AUTOMOTIVES",
+            "data" : [
+                {
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/bagfilter1.JPG"
+                },{
+                    "type" : "text",
+                    "data" : "ESS Corporation’s permanent media filter systems become part of standard machining and parts washers’ facilities for Chrysler. Automotive industry has unique need for solution of solid particles from water going to sewage and ESS expertise can help to resolve the need of automotive industry. "
+                },{
+                    "type" : "text",
+                    "data" : "We also provide filtration solution to other industries like Beer, Paper and Pulp, etc. Explore our <span link=\"mnav2_1\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Filtration Solutions</span> section to explore if any of our standard filter fit your need. If you are looking for a unique solution for your filtration need. <span link=\"contact\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Contact us</span> immediately and we can partner with you to work on your filtration need in cost effective and efficient manner."
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_pressvess",
+        "content" : {
+            "title" : "PRESSURIZED PROCESS VESSELS",
+            "subtitle" : "PROCESS VESSELS",
+            "data" : [
+                {
+                    "type" : "specificationspage-model",
+                    "data" : {
+                        "image" : "lib/images/pageimages/processtank.jpeg",
+                        "modeltext" : "Pressurized Process Vessels",
+                        "cid" : "cid_presprocvess",
+                        "techsheet" : "link-to-file"
+                    }
+                },{
+                    "type" : "text",
+                    "data" : "ESS Corporation is a proud manufacture of pressurized process vessels used in Biotech, Pharma, Food and Beverages industry. ESS possess Certificate of Authorization issued by the American Society of Mechanical Engineers to manufacture pressure vessels in compliance with ASME Code Sec. VIII Div. 1 (U and UM stamp holder). ESS Corporation also has an Authorization to Register with the National Board of Boilers and Pressure Vessel Inspectors, as well as a Certificate of Authorization for manufacturing pressure vessels and pressure piping under CSA B51, Canadian Code. ESS Corporation retains certificates for approved component with Canadian Registration Number (CRN) and works with Canadian Technical Standards and Safety Authority (TSSA) for registration of pressure vessels in Canada. Our team of Designers, Mechanical Engineers, Process Engineers and Quality Control Managers ensure strict compliance with code, calculation and quality product going out of ESS facility."
+                },{
+                    "type" : "text",
+                    "data" : "ESS is proud to own more 500+ CRN components registered in province of Ontario and Alberta on its name that are used for making pressurized components."
+                },{
+                    "type" : "text",
+                    "data" : "The list of certificates that ESS has and used for production of pressure vessels been mentioned below:"
+                },{
+                    "type" : "title",
+                    "data" : "ASME"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "ASME U Certificate of Authorization",
+                        "ASME UM Certificate of Authorization"
+                    ]
+                },{
+                    "type" : "title",
+                    "data" : "National Board"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "NB Authorization to Register",
+                        "NB “R” Stamp Certificate of Authorization"
+                    ]
+                },{
+                    "type" : "title",
+                    "data" : "TSSA"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "TSSA Certificate, Category A,B,C,D,& H Fittings, QA 03690",
+                        "TSSA Certificate, Miniature Pressure Vessel, QA 03167, Min. Press. Vessel",
+                        "TSSA Certificate, Power Piping, QA 02394",
+                        "TSSA Certificate, Pressure Vessel CSA B51",
+                        "TSSA Certificate, Process Piping, QA 02395",
+                        "TSSA Certificate, Repair and Alteration, QA 0239 "
+                    ]
+                },{
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/stamp.png"
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_filtvess",
+        "content" : {
+            "title" : "FILTRATION PRESSURE VESSELS",
+            "subtitle" : "PRESSURE VESSELS",
+            "data" : [
+                {
+                    "type" : "specificationspage-model",
+                    "data" : {
+                        "image" : "https://via.placeholder.com/500x300/fff?text=NO+PHOTO+AVAILABLE",
+                        "modeltext" : "Filtration Pressure Vessels",
+                        "cid" : "cid_filtpresvess",
+                        "techsheet" : "link-to-file"
+                    }
+                },{
+                    "type" : "text",
+                    "data" : "ESS Corp is a proud manufacture of ASME pressurized filter vessels that can use bags filters, cartridge filters, strainers and filters with permanent media including self-cleaning filter vessel. We produce filter vessels as standalone units as well as automated, packaged filtration systems on the skid with controls. Our standard filter vessels are produced from commonly used materials like Carbon and Stainless Steel. Vessels are also made of exotic materials like Hastelloy in various grades, Titanium, Carpenter 20, and are all available upon request. ESS is capable of designing custom vessels as per client need and follow industry best practices for design, fabrication and commissioning. Apart from pressure vessels fabrication, we fabricate in- house structural fabrication of frames and platforms, pipe welding, rolling and machined parts."
+                },{
+                    "type" : "text",
+                    "data" : "ESS is proud to own more 500+ CRN components registered in province of Ontario and Alberta on its name that are used for making pressurized components."
+                },{
+                    "type" : "text",
+                    "data" : "We can execute projects from specification to fabrication drawings to ITP. ESS conforms to all the relevant codes that includes ASME pressure vessel code, ASME piping code, NBA accreditation, CRN, CSA and R stamps for repairs and alterations and CRNs "
+                },{
+                    "type" : "text",
+                    "data" : "The list of certificates that ESS has and used for production of pressure vessels been mentioned below:"
+                },{
+                    "type" : "title",
+                    "data" : "ASME"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "ASME U Certificate of Authorization",
+                        "ASME UM Certificate of Authorization"
+                    ]
+                },{
+                    "type" : "title",
+                    "data" : "National Board"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "NB Authorization to Register",
+                        "NB “R” Stamp Certificate of Authorization"
+                    ]
+                },{
+                    "type" : "title",
+                    "data" : "TSSA"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "TSSA Certificate, Category A,B,C,D,& H Fittings, QA 03690",
+                        "TSSA Certificate, Miniature Pressure Vessel, QA 03167, Min. Press. Vessel",
+                        "TSSA Certificate, Power Piping, QA 02394",
+                        "TSSA Certificate, Pressure Vessel CSA B51",
+                        "TSSA Certificate, Process Piping, QA 02395",
+                        "TSSA Certificate, Repair and Alteration, QA 0239"
+                    ]
+                },{
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/stamp.png"
+                },{
+                    "type" : "text",
+                    "data" : "Explore our Filtration solutions link in terms of filter selection require to be placed in filter vessels!"
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_unprvess",
+        "content" : {
+            "title" : "UNPRESSURIZED OR LOW PRESSURE PROCESS VESSEL",
+            "subtitle" : "PROCESS VESSELS",
+            "data" : [
+                {
+                    "type" : "specificationspage-model",
+                    "data" : {
+                        "image" : "lib/images/pageimages/mpthird.jpeg",
+                        "modeltext" : "Unpressurized or Low-Pressure Process Vessel",
+                        "cid" : "cid_unprvess",
+                        "techsheet" : "link-to-file"
+                    }
+                },{
+                    "type" : "text",
+                    "data" : "ESS also provide non-code unpressurized process vessels like holding tanks, mixing tanks as per customer requirement. ESS has complete quality system in place for non-code vessels to ensure they are made with stringent criteria for workmanship. The process follows similar process to code vessel without calculations and ITP is used to ensure compliance with quality system at ESS."
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_heat",
+        "content" : {
+            "title" : "HEAT EXCHANGER",
+            "subtitle" : "HEAT EXCHANGER",
+            "data" : [
+                {
+                    "type" : "specificationspage-model",
+                    "data" : {
+                        "image" : "lib/images/pageimages/heatexchanger.jpeg",
+                        "modeltext" : "Heat Exchanger",
+                        "cid" : "cid_heatexc",
+                        "techsheet" : "link-to-file"
+                    }
+                },{
+                    "type" : "text",
+                    "data" : "Newest of our offering, ESS has started manufacturing the <b>Shell and Tube Heat Exchanger</b> and <b>Inline Electric Heat Exchanger</b>. Both exchangers are currently being used on our CIP system where Shell and Tube Heat Exchanger is used for multiple tank CIP systems with complex needs, our Inline Electric Heat Exchanger is used on our mobile CIP systems that do not need external heat supply for CIP need. "
+                },{
+                    "type" : "text",
+                    "data" : "Our sanitary Heat Exchangers has seamless design and are designed for complete drainage.  Exchanger’s fittings for nozzles, tubes, tube sheets, and all other metals in contact with the process fluids are constructed of materials requested by client. Approved Welding procedure, internal welds are ground flushed and polished as per client specification. Our electric heat exchanger are designed with single flowpath and required heat duty to heat liquid inline. All process flow path is electropolished or manual polished with passivation. "
+                },{
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/heatexchanger.jpeg"
+                },{
+                    "type" : "text",
+                    "data" : "We have started offering our heat exchangers to external vendors. Visit our <span link=\"contact\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Contact us</span> page to submit your heat exchanger specification online and we can quickly provide you the quote."
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_tffskid",
+        "content" : {
+            "title" : "TFF SKID",
+            "subtitle" : "CUSTOM SKIDS",
+            "data" : [
+                {
+                    "type" : "specificationspage-model",
+                    "data" : {
+                        "image" : "lib/images/pageimages/customskid.jpeg",
+                        "modeltext" : "TFF Skid",
+                        "cid" : "cid_tffskid",
+                        "techsheet" : "link-to-file"
+                    }
+                },{
+                    "type" : "text",
+                    "data" : "ESS TFF skid is designed to be used with any manufacturers TFF holder or Cassette. ESS provides all piping, instrumentations, valves, mounting frames and supports, and other pre-wired system on the skid. Our piping scheme and automation program helps to operate TFF system for concentration and diafiltration in 2 modes as described below"
+                },{
+                    "type" : "title",
+                    "data" : "Batch Mode"
+                },{
+                    "type" : "text",
+                    "data" : "&emsp; Concentration is done in batch and cycle of diafiltration is required pre- or post-concentration."
+                },{
+                    "type" : "title",
+                    "data" : "Continuous Mode "
+                },{
+                    "type" : "text",
+                    "data" : "&emsp; Also, referred as Constant Volume Diafiltration which helps to main the fluid volume during dia-filtration. The fluid can be concentrated pre – or post concentration. Continuous mode requires used of 2 pumps to manage equal flow between permeate outflow and diafiltration buffer input."
+                },{
+                    "type" : "text",
+                    "data" : "The specification of ESS TFF system are:"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "SS316L holder and piping (SS304 available on demand); <20 Ra or Electropolished Surface finish with smooth welds ",
+                        "Inline Temperature Transmitter with digital display ",
+                        "Sanitary pump for concentration and diafiltration",
+                        "Flowmeter with local display or on HMI.",
+                        "Sanitary pressure transmitters or gauge",
+                        "Inline Conductivity meter with local display or on HMI. ",
+                        "Recirculation loop for mixing chemical with option of Electric Heater in SS enclosure (washdown duty or NEMA rated) to maintain temperature inline.",
+                        "Sanitary diaphragm valves",
+                        "304 SS frame with large casters with small footprint for mobility (if required)",
+                        "Space for putting dosing pump on skid for formulation application (dosing pump optional)",
+                        "Adjustable feet for leveling",
+                        "100% Baroscopic, Passivation, FAT, SAT and turnover package ",
+                        "Diaphragm, Gasket and O-rings – EPDM, Teflon, Viton, etc",
+                        "Automation with PLC control",
+                        "Option for Data Recording"
+                    ]
+                },{
+                    "type" : "imagecontain",
+                    "data" : "lib/images/pageimages/tffskid.png"
+                },{
+                    "type" : "text",
+                    "data" : "Resolves issue with frequent changeover of filters and clogging of filters reducing low manpower requirement. Alternate to costly centrifugation process."
+                },{
+                    "type" : "title",
+                    "data" : "Dual Stage TFF system"
+                },{
+                    "type" : "text",
+                    "data" : "Are you struggling with your process where volume of process reduces significantly? Our dual stage TFF system can solve this problem where need for concentration is high and volume handling become a challenge. The processes that faces these challenges are Formulations, or process with very low yield."
+                },{
+                    "type" : "text",
+                    "data" : "<span link=\"contact\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Contact</span> ESS immediately to know more about Dual Stage TFF system"
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_cromskid",
+        "content" : {
+            "title" : "CHROMATOGRAPHY COLUMN & SKID",
+            "subtitle" : "CUSTOM SKIDS",
+            "data" : [
+                {
+                    "type" : "specificationspage-model",
+                    "data" : {
+                        "image" : "https://via.placeholder.com/500x300/fff?text=NO+PHOTO+AVAILABLE",
+                        "modeltext" : "Chromatography Column & Skid",
+                        "cid" : "cid_chrcolskid",
+                        "techsheet" : "link-to-file"
+                    }
+                },{
+                    "type" : "text",
+                    "data" : "ESS can built quality chromatography column and skid typically used in downstream processing and separation of biomolecules from many sources of origin, including: bioengineered products, products derived from blood plasma, products derived from waste stream of food and food processing materials. Salient feature of ESS’s chromatography skid includes:"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "Integrate columns and skid on single platform that helps ease of operation with avoiding use of flex hose and frequent connection/disconnection required that can be source of operation and save space",
+                        "Inline cooler if low temperature operation is required for chromatography operation",
+                        "Custom column height in same cost of standard columns"
+                    ]
+                },{
+                    "type" : "text",
+                    "data" : "Custom Chromatography skid with flow splitting capability – Do you have chromatography skid need where you must use multiple columns with one chromatography skid to avoid holding process fluid due to stability issues. ESS chromatography system goes beyond single column operation and can also help to split flow between two columns equally and pooling them pack that provide additional flexibility in operation instead of using highly expensive big column. This chromatography system reduces the capital cost of chromatography columns significantly."
+                },{
+                    "type" : "text",
+                    "data" : "<span link=\"contact\" style=\"text-decoration: underline; color: blue;\" class=\"navbar-popup-widget-c\">Contact</span> ESS immediately to know more about Multicolumn Chromatography skid!"
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_specapp",
+        "content" : {
+            "title" : "CUSTOM SKIDS & SPECIALTY APPLICATIONS",
+            "subtitle" : "CUSTOM SKIDS",
+            "data" : [
+                {
+                    "type" : "specificationspage-model",
+                    "data" : {
+                        "image" : "lib/images/pageimages/mpsecond.jpeg",
+                        "modeltext" : "Chromatography Column & Skid",
+                        "cid" : "cid_chrcolskid",
+                        "techsheet" : "link-to-file"
+                    }
+                },{
+                    "type" : "title",
+                    "data" : "Design Capabilities"
+                },{
+                    "type" : "text",
+                    "data" : "Our Design Department has the capability to take mechanical designs, as well as to adapt customer's drawings, calculations and revisions, and transform them in to our work flow using the latest computer software. We can offer vessels manufactured to our internal specification or to specifications issued by the Customer."
+                },{
+                    "type" : "title",
+                    "data" : "Welding Services"
+                },{
+                    "type" : "text",
+                    "data" : "ESS Corp. fabrication is done by ASME Sec IX qualified welders using welding procedures qualified per the same standard. Welding processes include: SMAW, GMAW, GTAW, FCAW, and SAW."
+                },{
+                    "type" : "title",
+                    "data" : "Quality Control"
+                },{
+                    "type" : "text",
+                    "data" : "Products Fabrication maintains a fully documented quality control program that covers every phase of the manufacturing process. The design, material selection, each weld, all fittings, every connection is thoroughly inspected to meet customer's requirements. Nothing leaves E.S.S Corp. without a thorough inspection and rigorous testing."
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "NDT Testing",
+                        "Customer Inspection",
+                        "Painting",
+                        "Material Test Reports",
+                        "Hydro Testing",
+                        "A.I. Inspection"
+                    ]
+                },{
+                    "type" : "text",
+                    "data" : "We manufacture products in compliance with the following codes"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "ASME Section VIII, Div.1",
+                        "NACE MR-01-75",
+                        "ASME B31.3",
+                        "ASME B31.1"
+                    ]
+                },{
+                    "type" : "space",
+                    "data" : ""
+                }
+            ]
+        }
+    },{
+        "link" : "spage_covid",
+        "content" : {
+            "title" : "COVID-19 UPDATES",
+            "subtitle" : "ESS's COVID PREVENTION",
+            "data" : [
+                {
+                    "type" : "image",
+                    "data" : "lib/images/covidpeoplemasks.png"
+                },{
+                    "type" : "title",
+                    "data" : "SYMPTOMS"
+                },{
+                    "type" : "text",
+                    "data" : "COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization."
+                },{
+                    "type" : "text",
+                    "data" : "Most common symptoms:"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "fever",
+                        "dry cough",
+                        "tiredness"
+                    ]
+                },{
+                    "type" : "text",
+                    "data" : "Less common symptoms:"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "aches and pains",
+                        "sore throat",
+                        "diarrhoea",
+                        "conjunctivitis",
+                        "headache",
+                        "loss of taste or smell",
+                        "a rash on skin, or discolouration of fingers or toes"
+                    ]
+                },{
+                    "type" : "title",
+                    "data" : "PREVENTION"
+                },{
+                    "type" : "text",
+                    "data" : "Protect yourself and others around you by knowing the facts and taking appropriate precautions. Follow advice provided by your local health authority."
+                },{
+                    "type" : "text",
+                    "data" : "To prevent the spread of COVID-19:"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "Clean your hands often. Use soap and water, or an alcohol-based hand rub.",
+                        "Maintain a safe distance from anyone who is coughing or sneezing.",
+                        "Wear a mask when physical distancing is not possible.",
+                        "Don’t touch your eyes, nose or mouth.",
+                        "Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.",
+                        "Stay home if you feel unwell."
+                    ]
+                },{
+                    "type" : "text",
+                    "data" : "If you have a fever, cough and difficulty breathing, seek medical attention. Calling in advance allows your healthcare provider to quickly direct you to the right health facility. This protects you, and prevents the spread of viruses and other infections."
+                },{
+                    "type" : "text",
+                    "data" : "Masks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority."
+                },{
+                    "type" : "title",
+                    "data" : "SELF CARE"
+                },{
+                    "type" : "text",
+                    "data" : "After exposure to someone who has COVID-19, do the following:"
+                },{
+                    "type" : "list",
+                    "data" : [
+                        "Call your health care provider or COVID-19 hotline to find out where and when to get a test.",
+                        "Cooperate with contact-tracing procedures to stop the spread of the virus.",
+                        "If testing is not available, stay home and away from others for 14 days.",
+                        "While you are in quarantine, do not go to work, to school or to public places. Ask someone to bring you supplies.",
+                        "Keep at least a 1-metre distance from others, even from your family members.",
+                        "Wear a medical mask to protect others, including if/when you need to seek medical care.",
+                        "Clean your hands frequently.",
+                        "Stay in a separate room from other family members, and if not possible, wear a medical mask.",
+                        "Keep the room well-ventilated.",
+                        "If you share a room, place beds at least 1 metre apart.",
+                        "Monitor yourself for any symptoms for 14 days.",
+                        "Call your health care provider immediately if you have any of these danger signs: difficulty breathing, loss of speech or mobility, confusion or chest pain.",
+                        "Stay positive by keeping in touch with loved ones by phone or online, and by exercising at home."
+                    ]
+                },{
+                    "type" : "space",
+                    "data" : ""
+                },{
+                    "type" : "title",
+                    "data" : "COVID-19 MATERIALS PROVIDED BY THE GOVERNMENT OF CANADA"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/03/971a-COVID-19-WashYourHands.pdf\">Wash Your Hands</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/03/97a9-COVID-19-CoverYourCough.pdf\">Cover Your Cough</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/06/96ac-038_COVID19_sign_safe-mask-wear_letter.pdf\">Wearing a Mask</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/09/900b-covid-19-download-app.pdf\">Download the Covid Alert App</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/12/9575-4-Steps-For-Self-Protection.pdf\">4 Steps For Self Protection</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/04/8f7a-How-COVID-19-Spreads.pdf\">How COVID 19 Spreads</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/12/927f-COVID19-Clean-your-hands-redo-V5.pdf\">Clean your hands</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/05/8fdf-How-to-Safely-Wear-a-Cloth-or-Face-Covering-Banner.pdf\">How to Safely Wear a Cloth or Face Covering</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/07/9851-Mask-Bylaw_letter.pdf\">Mask Required Indoors</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2021/02/9585-COVID19MentalHealthSupportFINALTagged.pdf\">Mental Health Support</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/03/8efd-COVID-19-Social-Distancing-WEB.pdf\">Social Distancing</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/03/8eed-COVID-19-Social-Distancing-on-elevators-FINAL-WEB.pdf\">Social Distancing on elevators</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/03/900d-COVID-19-ProtectYourself.pdf\">Protect Yourself</a>"
+                },{
+                    "type" : "text",
+                    "data" : "<a target=\"_blank\" href=\"https://www.toronto.ca/wp-content/uploads/2020/03/900d-COVID-19-ProtectYourself.pdf\">Protect Yourself</a>"
+                }
+            ]
+        }
+    }
+    
+
+
+]

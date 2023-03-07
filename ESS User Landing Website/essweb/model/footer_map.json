@@ -1,0 +1,66 @@
+[
+    {
+        "mapid" : "m1",
+        "link" : "fmap",
+        "dataid" : "hq",
+        "mapimg" : "lib/images/maps/map-canada.png",
+        "z1" : ["Stepwell International"],
+        "z2" : ["SAS"],
+        "z3" : ["CONTACT"],
+        "z4" : ["Canada"]
+    },{
+        "mapid" : "m2",
+        "link" : "fmap",
+        "dataid" : "usa",
+        "mapimg" : "lib/images/maps/map-usa.png",
+        "z1" : ["Stepwell International"],
+        "z2" : ["S.A.U"],
+        "z3" : ["CONTACT"],
+        "z4" : ["USA"]
+    },{
+        "mapid" : "m3",
+        "link" : "fmap",
+        "dataid" : "uk",
+        "mapimg" : "lib/images/maps/map-uk.png",
+        "z1" : ["Stepwell International"],
+        "z2" : ["LLC"],
+        "z3" : ["CONTACT"],
+        "z4" : ["UK"]
+    },{
+        "mapid" : "m4",
+        "link" : "fmap",
+        "dataid" : "germany",
+        "mapimg" : "lib/images/maps/map-spain.png",
+        "z1" : ["Stepwell International"],
+        "z2" : ["LTD"],
+        "z3" : ["CONTACT"],
+        "z4" : ["GERMANY"]
+    },{
+        "mapid" : "m5",
+        "link" : "fmap",
+        "dataid" : "china",
+        "mapimg" : "lib/images/maps/map-china.png",
+        "z1" : ["Stepwell International"],
+        "z2" : ["China"],
+        "z3" : ["CONTACT"],
+        "z4" : ["China"]
+    },{
+        "mapid" : "m6",
+        "link" : "fmap",
+        "dataid" : "france",
+        "mapimg" : "lib/images/maps/map-france.png",
+        "z1" : ["Stepwell International"],
+        "z2" : ["LV"],
+        "z3" : ["CONTACT"],
+        "z4" : ["France"]
+    },{
+        "mapid" : "m7",
+        "link" : "fmap",
+        "dataid" : "na",
+        "mapimg" : "lib/images/maps/map-0.png",
+        "z1" : ["PARTNERS"],
+        "z2" : [],
+        "z3" : [],
+        "z4" : ["Europe", "Africa", "Asia"]
+    }
+]

@@ -1,0 +1,274 @@
+#home{
+    /* height: 100%;
+    width: 100%; */
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* overflow-y: auto; */
+    /* display: none; */
+}
+#home.hidden{
+    display: none;
+}
+#home > span{
+    font-size: var(--TEXT_SIZE);
+    color: black;
+    /* margin-bottom: 10px; */
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    text-align: start;
+}
+#gallery{
+    height: 50vh;
+    min-height: 350px;
+    max-height: 50vh;
+    width: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+    position: relative;
+}
+#gallery > .background{
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    opacity: 0.3;
+    /* background-color: var(--MAIN_COLOR);
+    background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+    background-size: 13px, 29px, 37px, 53px; */
+}
+.gallery-collection{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+.gallery-collection > .widget{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.gallery-collection > .widget.hidden{
+    display: none;
+}
+.gallery-collection > .widget > img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+}
+.gallery-collection > .widget > .textcontent{
+    height: calc(100% - 40px);
+    width: calc(50% - 40px);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+.gallery-collection > .widget > .textcontent > .title{
+    font-size: var(--MTITLE_SIZE);
+    font-family: avant-garde-lg;
+    letter-spacing: 5px;
+}
+.gallery-collection > .widget > .textcontent > .subtitle{
+    font-size: var(--MSTITLE_SIZE);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.gallery-collection > .widget > .textcontent > .content{
+    font-size: var(--STEXT_SIZE);
+}
+.gallery-collection > .widget > .textcontent > .content > b{
+    letter-spacing: 3px;
+    font-size: 1.1em;
+}
+.gallery-collection > .widget > .textcontent > button{
+    font-size: var(--TEXT_SIZE);
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--BTN_COLOR);
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-icons{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+}
+.gallery-icons > i{
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#home-content-gallery{
+    background-color: var(--MAIN_COLOR);
+}
+
+
+.bg{
+    background-color: #143753;
+}
+
+
+#emblem{
+    height: 100px;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.emblem-widget{
+    width: calc( 100vw / 6 );
+    height: 100%;
+    max-height: 100%;
+    /* object-fit: cover; */
+    cursor: pointer;
+    /* background-color: whitesmoke; */
+    /* background-color: var(--MAIN_COLOR); */
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.emblem-widget:hover{
+    /* background-color: goldenrod; */
+    background-color: whitesmoke;
+}
+.emblem-widget:hover > img{
+    transform: scale(1.2);
+}
+.emblem-widget > img{
+    width: 80%;
+    height: 80%;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+
+#emblem2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--MAIN_COLOR);
+}
+.emblem2-widget{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    max-height: 100%;
+    /* object-fit: cover; */
+    cursor: pointer;
+    /* background-color: whitesmoke; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border: thin solid white; */
+}
+.emblem2-widget:hover{
+    z-index: 100;
+}
+.emblem2-widget:hover > img{
+    transform: scale(1.2);
+}
+.emblem2-widget > img{
+    /* width: 80%;
+    height: 80%; */
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    max-height: none;
+    cursor: pointer;
+}
+
+
+#emblem_dist{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.emblem_dist-widget{
+    width: calc( calc(100% / 4) - 20px );
+    height: auto;
+    padding: 10px;
+    max-height: 100%;
+    /* object-fit: cover; */
+    cursor: pointer;
+    /* background-color: whitesmoke; */
+    /* background-color: red; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    /* border: thin solid white; */
+}
+.emblem_dist-widget:hover{
+    z-index: 100;
+}
+.emblem_dist-widget:hover > img{
+    transform: scale(1.2);
+}
+.emblem_dist-widget > img{
+    /* width: 80%;
+    height: 80%; */
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    max-height: none;
+    cursor: pointer;
+}
+.emblem_dist-widget > span{
+    font-size: var(--MSTITLE_SIZE);
+}

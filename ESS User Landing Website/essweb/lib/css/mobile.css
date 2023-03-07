@@ -1,0 +1,96 @@
+:root{
+    --NAV_LSIZE: 2em;
+    --NAV_MSIZE: 1.3em;
+    --NAV_SSIZE: 1em;
+    
+}
+#mobinavtab > .tlink{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mobinavtab > .tlink > .title{
+    width: calc(100% - 20px);
+    padding: 0px 10px;
+    font-size: var(--NAV_LSIZE);
+    color: whitesmoke;
+    letter-spacing: 4px;
+    /* background: red; */
+}
+#mobinavtab > .tlink > .title > i{
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+#mobinavtab > .tlink > .title:active{
+    color: grey;
+    /* font-size: 90%; */
+}
+#mobinavtab > .tlink > .title::first-letter {
+    font-size: 110%;
+    font-family: avant-garde-lg;
+}
+
+#mobinavtab > .tlink > .slink{
+    width: calc(100% - 30px);
+    height: auto;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mobinavtab > .tlink > .slink.hidden{
+    display: none;
+}
+#mobinavtab > .tlink > .slink > .title{
+    width: calc(100% - 20px);
+    padding-left: 20px;
+    font-size: var(--NAV_MSIZE);
+    color: whitesmoke;
+    letter-spacing: 4px;
+}
+#mobinavtab > .tlink > .slink > .title:active{
+    color: grey;
+}
+#mobinavtab > .tlink > .slink > .title::first-letter {
+    font-size: 120%;
+    font-weight: bold;
+}
+#mobinavtab > .tlink > .slink > .title > i{
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+
+#mobinavtab > .tlink > .slink > .mlink{
+    width: calc(100% - 30px);
+    height: auto;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mobinavtab > .tlink > .slink > .mlink.hidden{
+    display: none;
+}
+#mobinavtab > .tlink > .slink > .mlink .title{
+    width: calc(100% - 20px);
+    padding: 5px 0px;
+    padding-left: 20px;
+    font-size: var(--NAV_SSIZE);
+    color: whitesmoke;
+    letter-spacing: 4px;
+}
+#mobinavtab > .tlink > .slink > .mlink .title:active{
+    color: grey;
+}
+#mobinavtab > .tlink > .slink > .mlink .title::first-letter {
+    font-size: 120%;
+    font-weight: bold;
+    /* font-family: avant-garde-lg; */
+}
+#mobinavtab > .tlink > .slink > .mlink .title > i{
+    margin-left: 20px;
+    font-size: 0.8em;
+}

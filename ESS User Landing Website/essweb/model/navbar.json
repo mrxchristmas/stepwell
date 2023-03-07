@@ -1,0 +1,199 @@
+[
+    {
+        "popupid" : "p8",
+        "name" : "Home",
+        "leftpanel" : "undefined",
+        "rightpanel" : "undefined",
+        "link" : "home"
+    },{
+        "popupid" : "p1_1",
+        "name" : "Industries",
+        "link" : "none",
+        "leftpanel" : [
+            {
+                "name" : "Pharmaceutical & Biotech",
+                "link" : "spage_pharma",
+                "pid" : "p1_1_1",
+                "caret" : "false"
+            },{
+                "name" : "Food & Beverage",
+                "link" : "spage_food",
+                "pid" : "p1_1_2",
+                "caret" : "false"
+            },{
+                "name" : "Energy, Oil & Natural Gas",
+                "link" : "spage_gas",
+                "pid" : "p1_1_3",
+                "caret" : "false"
+            },{
+                "name" : "Water & Water Waste Treatment",
+                "link" : "spage_water",
+                "pid" : "p1_1_4",
+                "caret" : "false"
+            },{
+                "name" : "Industrial & Automotives",
+                "link" : "spage_industryauto",
+                "pid" : "p1_1_5",
+                "caret" : "false"
+            }
+        ],
+        "rightpanel" : "undefined"
+    },{
+        "popupid" : "p1_2",
+        "name" : "Applications",
+        "leftpanel" : [
+            {
+                "name" : "Filter Vessels",
+                "link" : "mnav2_1",
+                "pid" : "p1_2_1_1",
+                "caret" : "true"
+            },{
+                "name" : "Filter Media",
+                "link" : "mnav2_1_1",
+                "pid" : "p1_2_1_2",
+                "caret" : "true"
+            },{
+                "name" : "Filtration System",
+                "link" : "mnav2_111",
+                "pid" : "p1_2_1_3",
+                "caret" : "true"
+            },{
+                "name" : "Pressurized Process Vessel",
+                "link" : "spage_pressvess",
+                "pid" : "p1_2_2",
+                "caret" : "false"
+            },{
+                "name" : "Unpressurized or Low-Pressure Process Vessel",
+                "link" : "spage_unprvess",
+                "pid" : "p1_2_4",
+                "caret" : "false"
+            },{
+                "name" : "Clean In Place (CIP) Systems",
+                "link" : "spage_cip",
+                "pid" : "p1_2_5",
+                "caret" : "false"
+            },{
+                "name" : "Heat Exchanger",
+                "link" : "spage_heat",
+                "pid" : "p1_2_6",
+                "caret" : "false"
+            },{
+                "name" : "Chromatography Column and Skid",
+                "link" : "spage_cromskid",
+                "pid" : "p1_2_8",
+                "caret" : "false"
+            },{
+                "name" : "Custom Skids & Specialty Applications",
+                "link" : "spage_specapp",
+                "pid" : "p1_2_10",
+                "caret" : "false"
+            }
+            
+        ],
+        "rightpanel" : [
+            {
+                "pid" : "p1_2_1_1",
+                "content" : [
+                    {
+                        "name" : "Bag Filter Vessel",
+                        "link" : "mnav2_1_2"
+                    },{
+                        "name" : "Cartridge Filter Vessel",
+                        "link" : "mnav2_1_3"
+                    },{
+                        "name" : "Bag Stainer Vessel",
+                        "link" : "mnav2_1_6"
+                    },{
+                        "name" : "Charcoal Filter Vessel",
+                        "link" : "mnav2_1_5"
+                    }
+                ]
+            },{
+                "pid" : "p1_2_1_2",
+                "content" : [
+                    {
+                        "name" : "Coalescing Element",
+                        "link" : "mnav2_1_21"
+                    },{
+                        "name" : "Filter Bags",
+                        "link" : "mnav2_1_2"
+                    },{
+                        "name" : "Filter Separator Elements",
+                        "link" : "mnav2_1_22"
+                    }
+                ]
+            },{
+                "pid" : "p1_2_1_3",
+                "content" : [
+                    {
+                        "name" : "Tangential Flow Filtration System",
+                        "link" : "mnav2_1_8"
+                    },{
+                        "name" : "Self-Cleaning Filtration System ",
+                        "link" : "mnav2_1_7"
+                    },{
+                        "name" : "Nanofiltration System",
+                        "link" : "mnav2_1_9"
+                    },{
+                        "name" : "Filter Housing",
+                        "link" : "mnav2_1_10"
+                    }
+                ]
+            }
+        ],
+        "link" : "none"
+    },{
+        "popupid" : "p2",
+        "name" : "Competencies",
+        "leftpanel" : [
+            {
+                "name" : "We Design",
+                "link" : "spage2_1",
+                "pid" : "p2_1",
+                "caret" : "false"
+            },{
+                "name" : "We Build",
+                "link" : "spage2_2",
+                "pid" : "p2_2",
+                "caret" : "false"
+            },{
+                "name" : "We Test",
+                "link" : "spage2_3",
+                "pid" : "p2_3",
+                "caret" : "false"
+            },{
+                "name" : "Repair, Alteration & Spares",
+                "link" : "spage2_4",
+                "pid" : "p2_3",
+                "caret" : "false"
+            }
+            
+        ],
+        "rightpanel" : "undefined",
+        "link" : "none"
+    },{
+        "popupid" : "p7",
+        "name" : "Quality Systems",
+        "leftpanel" : "undefined",
+        "rightpanel" : "undefined",
+        "link" : "spage_qualitysystems"
+    },{
+        "popupid" : "p6",
+        "name" : "Contact",
+        "leftpanel" : "undefined",
+        "rightpanel" : "undefined",
+        "link" : "contact"
+    },{
+        "popupid" : "p7",
+        "name" : "Careers",
+        "leftpanel" : "undefined",
+        "rightpanel" : "undefined",
+        "link" : "careers"
+    },{
+        "popupid" : "p8",
+        "name" : "COVID-19",
+        "leftpanel" : "undefined",
+        "rightpanel" : "undefined",
+        "link" : "spage_covid"
+    }
+]

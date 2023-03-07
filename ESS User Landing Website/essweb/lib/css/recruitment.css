@@ -1,0 +1,542 @@
+#recruitment{
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#recruitment.hidden{
+    display: none;
+}
+.recruitment-header{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.recruitment-header > .avjobs{
+    font-size: var(--TEXT_SIZE);
+    font-weight: bold;
+    color: white;
+    background-color: var(--SUB_COLOR);
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.recruitment-header > .spont{
+    font-size: var(--TEXT_SIZE);
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.recruitment-header > .search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+.recruitment-header > .search > input{
+    padding: 3px 10px;
+    font-size: var(--TEXT_SIZE);
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    cursor: text;
+}
+.recruitment-header > .search > button{
+    padding: 3px 10px;
+    font-size: var(--TEXT_SIZE);
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: var(--BTN_COLOR);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.recruitment-joblist{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.recruitment-joblist.hidden{
+    display: none;
+}
+.recruitment-joblist-widget{
+    height: 100px;
+    width: 80%;
+    background-color: whitesmoke;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+.recruitment-joblist-widget:hover{
+    background-color: var(--SUB_COLOR);
+}
+.recruitment-joblist-widget:hover > span{
+    color: white;
+}
+.recruitment-joblist-widget:hover > span > i{
+    color: white;
+}
+.recruitment-joblist-widget > .title{
+    font-size: var(--TITLE_SIZE);
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.recruitment-joblist-widget > .location > i{
+    color: var(--SUB_COLOR);
+    padding: 5px 10px 5px 20px;
+}
+.recruitment-joblist-widget > button{
+    position: absolute;
+    right: 20px;
+    background-color: var(--BTN_COLOR);
+    color: white;
+    font-size: var(--TEXT_SIZE);
+    border: none;
+    border-radius: 5px;
+    padding: 3px 15px;
+    cursor: pointer;
+}
+
+.recruitment-jobinfo{
+    width: 80%;
+    height: auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    position: relative;
+    margin: 20px 0px;
+}
+.recruitment-jobinfo.hidden{
+    display: none;
+}
+
+
+.recruitment-jobinfo > .update{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.recruitment-jobinfo > .maintitle{
+    font-size: var(--TITLE_SIZE);
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 10px;
+    text-align: center;
+}
+.recruitment-jobinfo > .divide{
+    width: 150px;
+    height: 5px;
+    background-color: var(--SUB_COLOR);
+    margin: 10px;
+}
+.recruitment-jobinfo > .location{
+    font-size: var(--TEXT_SIZE);
+    margin-bottom: 10px;
+}
+.recruitment-jobinfo > .location > i{
+    color: var(--SUB_COLOR);
+    margin-right: 5px;
+}
+.recruitment-jobinfo > .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.recruitment-jobinfo > .apply{
+    padding: 5px 15px;
+    background-color: var(--BTN_COLOR);
+    border: none;
+    border-radius: 5px;
+    font-size: var(--TEXT_SIZE);
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.recruitment-jobinfo > .info > span{
+    padding: 10px;
+}
+.recruitment-jobinfo > .content{
+    width: 90%;
+    height: auto;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.recruitment-jobinfo > .content > .title{
+    font-size: var(--TITLE_SIZE);
+    /* color: var(--SUB_COLOR); */
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.recruitment-jobinfo > .content > .text{
+    font-size: var(--TEXT_SIZE);
+    /* color: grey; */
+    margin-bottom: 10px;
+}
+.recruitment-jobinfo > .content > .video{
+    width: 100%;
+    min-width: 100%;
+    height: 300px;
+    min-height: 300px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.recruitment-jobinfo > .content > .image{
+    width: 100%;
+    height: 300px;
+    align-self: center;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.recruitment-jobinfo > .content > .list{
+    font-size: var(--TEXT_SIZE);
+    /* color: grey; */
+    margin: 0px;
+    /* padding: 0px; */
+    margin-bottom: 10px;
+}
+.recruitment-jobinfo > .content > .space{
+    height: 20px;
+    min-height: 20px;
+    width: 100%;
+}
+
+
+
+
+.recruitment-application{
+    width: 80%;
+    height: auto;
+    margin: 20px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recruitment-application.hidden{
+    display: none;
+}
+
+.recruitment-application > .maintitle{
+    font-size: var(--MTITLE_SIZE);
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+.recruitment-application > .divide{
+    width: 150px;
+    height: 5px;
+    background-color: var(--SUB_COLOR);
+    margin: 10px;
+}
+.recruitment-application > .longdivide{
+    width: 80%;
+    height: thin;
+    background-color: var(--SUB_COLOR);
+    margin: 10px;
+}
+.recruitment-application > img{
+    width: 30%;
+    max-width: 30%;
+}
+
+.recruitment-application > .jobtitle{
+    font-size: var(--TITLE_SIZE);
+    /* font-weight: bold; */
+    letter-spacing: 3px;
+    margin: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+
+
+.recruitment-application > .formstatus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0px;
+}
+.recruitment-application > .formstatus > .p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.recruitment-application > .formstatus > .p > .n{
+    height: 35px;
+    width: 35px;
+    border: 7px solid grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.recruitment-application > .formstatus > .p.active > .n{
+    border: 7px solid var(--SUB_COLOR);
+}
+
+
+
+.recruitment-application > .formstatus > .s{
+    height: 5px;
+    width: 150px;
+    background-color: grey;
+    position: relative;
+    top: -10px;
+}
+.recruitment-application > .formstatus > .s.active{
+    background-color: var(--SUB_COLOR);
+}
+
+.recruitment-application > .upload-con{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recruitment-application > .upload-con.hidden{
+    display: none;
+}
+
+.recruitment-application > .upload-con > .upload-resume{
+    width: 100%;
+    /* height: 100px; */
+    padding: 20px 0px;
+    border: thin dashed grey;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.recruitment-application > .upload-con > .upload-resume:hover{
+    border: thin dashed var(--BTN_COLOR);
+}
+.recruitment-application > .upload-con > .upload-resume > span{
+    font-size: var(--TEXT_SIZE);
+    color: grey;
+    cursor: pointer;
+}
+.recruitment-application > .upload-con > .upload-resume > i{
+    font-size: var(--MTITLE_SIZE);
+    color: grey;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.recruitment-application > .upload-con > .upload-resume:hover > span,
+.recruitment-application > .upload-con > .upload-resume:hover > i{
+    color: var(--BTN_COLOR);
+}
+.recruitment-application > .upload-con > .validate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.recruitment-application > .upload-con > .validate > button{
+    padding: 5px 15px;
+    font-size: var(--TEXT_SIZE);
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    min-width: 150px;
+    cursor: pointer;
+}
+.recruitment-application > .upload-con > .validate > button:nth-child(1){
+    background-color: var(--BTN_COLOR);
+}
+.recruitment-application > .upload-con > .validate > button:nth-child(2){
+    background-color: grey;
+}
+
+.recruitment-application > .upload-con > .or{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.recruitment-application > .upload-con > .or > hr{
+    width: 100%;
+    height: thin;
+    background-color: grey;
+}
+.recruitment-application > .upload-con > .or > span{
+    position: absolute;
+    background-color: white;
+    padding: 0px 10px;
+    font-size: var(--TEXT_SIZE);
+    top: 0px;
+}
+
+.recruitment-application > .upload-con > .noresume{
+    width: 100%;
+    padding: 5px 15px;
+    font-size: var(--TEXT_SIZE);
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    min-width: 150px;
+    cursor: pointer;
+    background-color: grey;
+}
+#recruitment-application-return{
+    background-color: var(--BTN_COLOR);
+    margin: 10px 0px;
+}
+
+
+.recruitment-application > .form-con{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recruitment-application > .form-con.hidden{
+    display: none;
+}
+
+.recruitment-application > .form-con > .widget{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.recruitment-application > .form-con > .widget > input{
+    width: 100%;
+    padding: 5px 15px;
+    font-size: var(--TEXT_SIZE);
+    border-radius: 5px;
+    border: thin solid grey;
+}
+.recruitment-application > .form-con > .widget > textarea{
+    width: 100%;
+    height: 100px;
+    min-height: 100px;
+    padding: 5px 15px;
+    font-size: var(--TEXT_SIZE);
+    border-radius: 5px;
+    border: thin solid grey;
+    resize: none;
+}
+.recruitment-application > .form-con > .widget > select{
+    width: 100%;
+    padding: 5px 15px;
+    font-size: var(--TEXT_SIZE);
+    border-radius: 5px;
+    border: thin solid grey;
+}
+.recruitment-application > .form-con > .widget > span{
+    margin-bottom: 5px;
+}
+.recruitment-application > .form-con > .sign{
+    /* font-size: 1.1em; */
+    letter-spacing: 2px;
+    line-height: 1.4em;
+}
+.recruitment-application > .form-con > .coverletter{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0px;
+}
+
+.recruitment-application > .form-con > .coverletter > .title{
+    margin-bottom: 10px;
+}
+.recruitment-application > .form-con > .coverletter > .upload-coverletter{
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    font-size: var(--TEXT_SIZE);
+    border: thin dashed grey;
+    border-radius: 5px;
+    text-align: center;
+    color:  grey;
+    cursor: pointer;
+}
+.recruitment-application > .form-con > .coverletter > .upload-coverletter:hover{
+    color: var(--SUB_COLOR);
+    border: thin dashed var(--SUB_COLOR);
+}
+
+#recruitment-application-submit{
+    width: 100%;
+    padding: 15px 0px;
+    font-weight: bold;
+    font-size: var(--TEXT_SIZE);
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+#recruitment-application-submit.active{
+    background-color: var(--BTN_COLOR);
+}
+
+#recruitment-application-form-return{
+    width: 100%;
+    padding: 5px 15px;
+    font-size: var(--TEXT_SIZE);
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    min-width: 150px;
+    cursor: pointer;
+    background-color: grey;
+    margin-top: 20px;
+}

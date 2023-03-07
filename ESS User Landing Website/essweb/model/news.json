@@ -1,0 +1,168 @@
+{
+    "featured" : [
+        {
+            "type" : "video",
+            "data" : "https://www.youtube.com/embed/wIF5kqRwrgw"
+        },{
+            "type" : "title",
+            "data" : "<b>STEPWELL INTERNATIONAL</b> WISHES YOU A HAPPY NEW YEAR!"
+        },{
+            "type" : "title",
+            "data" : "GOODBYE 2020, WELCOME 2021!"
+        },{
+            "type" : "text",
+            "data" : "The whole team of <b>STEPWELL INTERNATIONAL</b> wishes you an excellent year 2021!"
+        },{
+            "type" : "text",
+            "data" : "May it bring you happiness, health and great success but also many little joys and times to share."
+        },{
+            "type" : "text",
+            "data" : "Together let's have the common goal in healthcare & nutrition: a definable highest!"
+        },{
+            "type" : "space",
+            "data" : ""
+        }
+    ],
+    "active" : [
+        {
+            "image" : "lib/images/gallery/gallery1.jpg",
+            "date" : "2020-06-25",
+            "title" : "TASCMAR, A WINNING INNOVATION OF THE EUROPE 2020 STARS",
+            "link" : "spage_news17"
+        },{
+            "image" : "lib/images/gallery/gallery2.jpg",
+            "date" : "2021-01-16",
+            "title" : "STEPWELL INTERNATIONAL, AWARD WINNING TEAM",
+            "link" : "spage_news18"
+        },{
+            "image" : "lib/images/gallery/gallery3.jpg",
+            "date" : "2020-02-14",
+            "title" : "STEPWELL INTERNATIONAL, AWARD WINNING TEAM CELEBRATE VALENTINES",
+            "link" : "spage_news19"
+        },{
+            "image" : "lib/images/gallery/gallery4.jpg",
+            "date" : "2020-12-25",
+            "title" : "MERRY CHRISTMAS FROM STEPWELL INTERNATIONAL'S AWARD WINNING TEAM!!",
+            "link" : "spage_news20"
+        }
+    ],
+    "archived" : [
+        {
+            "yearid" : "2020",
+            "content" : [
+                {
+                    "month" : "Jun",
+                    "day" : "25",
+                    "img" : "lib/images/gallery/gallery1.jpg",
+                    "title" : "TASCMAR, A WINNING INNOVATION OF THE EUROPE 2020 STARS",
+                    "link" : "spage_news1"
+                },{
+                    "month" : "Mar",
+                    "day" : "15",
+                    "img" : "lib/images/gallery/gallery2.jpg",
+                    "title" : "INAUGURATION OF UNIFERTEX EQUIPMENT",
+                    "link" : "spage_news2"
+                },{
+                    "month" : "Dec",
+                    "day" : "24",
+                    "img" : "lib/images/gallery/gallery3.jpg",
+                    "title" : "CHRISTMAS EVE CELEBRATION",
+                    "link" : "spage_news3"
+                },{
+                    "month" : "Sep",
+                    "day" : "5",
+                    "img" : "lib/images/gallery/gallery4.jpg",
+                    "title" : "MIXING AND AGITATION IN THE PHARMACEUTICAL INDUSTRY” SEMINAR IN CASABLANCA",
+                    "link" : "spage_news4"
+                }
+            ]
+        },{
+            "yearid" : "2019",
+            "content" : [
+                {
+                    "month" : "Jun",
+                    "day" : "25",
+                    "img" : "lib/images/gallery/gallery2.jpg",
+                    "title" : "TASCMAR, A WINNING INNOVATION OF THE EUROPE 2020 STARS",
+                    "link" : "spage_news5"
+                },{
+                    "month" : "Mar",
+                    "day" : "15",
+                    "img" : "lib/images/gallery/gallery3.jpg",
+                    "title" : "INAUGURATION OF UNIFERTEX EQUIPMENT",
+                    "link" : "spage_news6"
+                },{
+                    "month" : "Dec",
+                    "day" : "24",
+                    "img" : "lib/images/gallery/gallery4.jpg",
+                    "title" : "CHRISTMAS EVE CELEBRATION",
+                    "link" : "spage_news7"
+                },{
+                    "month" : "Sep",
+                    "day" : "5",
+                    "img" : "lib/images/gallery/gallery1.jpg",
+                    "title" : "MIXING AND AGITATION IN THE PHARMACEUTICAL INDUSTRY” SEMINAR IN CASABLANCA",
+                    "link" : "spage_news8"
+                }
+            ]
+        },{
+            "yearid" : "2018",
+            "content" : [
+                {
+                    "month" : "Jun",
+                    "day" : "25",
+                    "img" : "lib/images/gallery/gallery3.jpg",
+                    "title" : "TASCMAR, A WINNING INNOVATION OF THE EUROPE 2020 STARS",
+                    "link" : "spage_news9"
+                },{
+                    "month" : "Mar",
+                    "day" : "15",
+                    "img" : "lib/images/gallery/gallery4.jpg",
+                    "title" : "INAUGURATION OF UNIFERTEX EQUIPMENT",
+                    "link" : "spage_news10"
+                },{
+                    "month" : "Dec",
+                    "day" : "24",
+                    "img" : "lib/images/gallery/gallery1.jpg",
+                    "title" : "CHRISTMAS EVE CELEBRATION",
+                    "link" : "spage_news11"
+                },{
+                    "month" : "Sep",
+                    "day" : "5",
+                    "img" : "lib/images/gallery/gallery2.jpg",
+                    "title" : "MIXING AND AGITATION IN THE PHARMACEUTICAL INDUSTRY” SEMINAR IN CASABLANCA",
+                    "link" : "spage_news12"
+                }
+            ]
+        },{
+            "yearid" : "2017",
+            "content" : [
+                {
+                    "month" : "Jun",
+                    "day" : "25",
+                    "img" : "lib/images/gallery/gallery4.jpg",
+                    "title" : "TASCMAR, A WINNING INNOVATION OF THE EUROPE 2020 STARS",
+                    "link" : "spage_news13"
+                },{
+                    "month" : "Mar",
+                    "day" : "15",
+                    "img" : "lib/images/gallery/gallery1.jpg",
+                    "title" : "INAUGURATION OF UNIFERTEX EQUIPMENT",
+                    "link" : "spage_news14"
+                },{
+                    "month" : "Dec",
+                    "day" : "24",
+                    "img" : "lib/images/gallery/gallery2.jpg",
+                    "title" : "CHRISTMAS EVE CELEBRATION",
+                    "link" : "spage_news15"
+                },{
+                    "month" : "Sep",
+                    "day" : "5",
+                    "img" : "lib/images/gallery/gallery3.jpg",
+                    "title" : "MIXING AND AGITATION IN THE PHARMACEUTICAL INDUSTRY” SEMINAR IN CASABLANCA",
+                    "link" : "spage_news16"
+                }
+            ]
+        }
+    ]
+}

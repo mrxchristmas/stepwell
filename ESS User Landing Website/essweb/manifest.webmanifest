@@ -1,0 +1,19 @@
+{
+    "short_name": "ESS",
+    "name": "Engineered System and Specialties",
+    "app_name": "ESS App",
+    "icons": [
+      {
+        "src": "lib/images/favicon.ico",
+        "type": "image/png",
+        "sizes": "128x128"
+      }
+    ],
+    "orientation": "portrait-primary",
+    "description": "Canadian Steel Fabricator",
+    "start_url": "index.php",
+    "background_color": "whitesmoke",
+    "display": "standalone",
+    "scope": "./",
+    "theme_color": "#282828"
+  }

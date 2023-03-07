@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: initial;
+    overflow-x: hidden;
+}
+
+#admin-content{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#admin-nav{
+    height: 100px;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#admin-nav > img{
+    max-height: 100%;
+    width: 150px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+#admin-nav > .nav-widget{
+    height: 50px;
+    width: auto;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#admin-nav > .nav-widget.active > span > div{
+    opacity: 1;
+    bottom: -10px;
+}
+#admin-nav > .nav-widget > span{
+    cursor: pointer;
+    font-size: 1.1vw;
+    font-weight: bold;
+    position: relative;
+    color: black;
+}
+#admin-nav > .nav-widget > span > div{
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 5px;
+    background-color: goldenrod;
+    opacity: 0;
+}
+#admin-nav > .nav-widget > span:hover > div{
+    /* -webkit-animation: up 0.5s linear ; */
+    animation-name: up;
+    animation-duration: 0.5s;
+    opacity: 1;
+    bottom: -10px;
+}
+
+
+@-ms-keyframes up { 
+    from { 
+        bottom: -20px;
+        opacity: 0;
+    } to { 
+        bottom: -10px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes up { 
+    from { 
+        bottom: -20px;
+        opacity: 0;
+    } to { 
+        bottom: -10px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes up { 
+    from { 
+        bottom: -20px;
+        opacity: 0;
+    } to { 
+        bottom: -10px;
+        opacity: 1;
+    }
+}
+@keyframes up { 
+    from { 
+        bottom: -20px;
+        opacity: 0;
+    } to { 
+        bottom: -10px;
+        opacity: 1;
+    }
+}
+
+
+#admin-page{
+    height: auto;
+    /* min-height: 100px; */
+    width: 100vw;
+    /* background-color: red; */
+}
+.admin-pages{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.admin-pages.hidden{
+    display: none;
+}
+
+#admin-page-home > .title{
+    font-size: 4vw;
+    color: white;
+    margin: 20px;
+}

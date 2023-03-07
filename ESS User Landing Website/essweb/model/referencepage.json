@@ -1,0 +1,342 @@
+[
+    {
+        "link" : "rpage1",
+        "title" : "OUR PARTNERS",
+        "subtitle" : "ESS - RECENT REFERENCES",
+        "image" : "https://via.placeholder.com/300x900?text=LIST+OF+PARTNER+LOGO",
+        "content" : [
+            {
+                "name" : "Albit",
+                "location" : "Russia"
+            },{            
+                "name" : "Baxter Belgium Italy",
+                "location" : "Swiss"
+            },{
+                "name" : "Bilthoven Biologicals",
+                "location" : "Netherlands"
+            },{
+                "name" : "Biovac South",
+                "location" : "Africa"
+            },{
+                "name" : "BP Biofuel & Verenium",
+                "location" : "USA"
+            },{
+                "name" : "Ceva Biomune Hungary",
+                "location" : "USA"
+            },{
+                "name" : "CPI",
+                "location" : "UK"
+            },{
+                "name" : "Danisco UK",
+                "location" : "France"
+            },{
+                "name" : "DianaPlantSciences",
+                "location" : "USA"
+            },{
+                "name" : "Elephant Vert",
+                "location" : "Morocco"
+            },{
+                "name" : "Epitopix",
+                "location" : "USA"
+            },{
+                "name" : "Excelvision",
+                "location" : "France"
+            },{
+                "name" : "Fermentalg",
+                "location" : "France"
+            },{
+                "name" : "Gilead",
+                "location" : "USA"
+            },{
+                "name" : "GSK & GSK Vaccine UK Belgium France Singapore",
+                "location" : "USA"
+            },{
+                "name" : "Hualan Bio",
+                "location" : "China"
+            },{
+                "name" : "L'Occitane",
+                "location" : "France"
+            },{
+                "name" : "Lily",
+                "location" : "France"
+            },{
+                "name" : "Lonza UK",
+                "location" : "USA"
+            },{
+                "name" : "Meddimune",
+                "location" : "USA"
+            },{
+                "name" : "Merck Millipore France",
+                "location" : "Swiss"
+            },{
+                "name" : "Merial France Italy",
+                "location" : "USA"
+            },{
+                "name" : "NIBRT",
+                "location" : "Irlande"
+            },{
+                "name" : "Novartis France",
+                "location" : "Singapore"
+            },{
+                "name" : "Pfizer France",
+                "location" : "Irlande"
+            },{
+                "name" : "Public Health England",
+                "location" : "UK"
+            },{
+                "name" : "Samsung Biologics",
+                "location" : "Korea"
+            },{
+                "name" : "Sanofi & Sanofi Pasteur Canada",
+                "location" : "France"
+            },{
+                "name" : "Sisley",
+                "location" : "France"
+            },{
+                "name" : "Takeda",
+                "location" : "USA"
+            },{
+                "name" : "Tecon",
+                "location" : "China"
+            },{
+                "name" : "Unither",
+                "location" : "France"
+            },{
+                "name" : "Volac",
+                "location" : "France"
+            },{
+                "name" : "Protgen",
+                "location" : "China"
+            },{
+                "name" : "Minhai Biotechnology",
+                "location" : "China"
+            }
+        ]
+    },{
+        "link" : "rpage2",
+        "title" : "REFERENCES",
+        "subtitle" : "FOOD AND BEVERAGE - RECENT REFERENCES",
+        "image" : "https://via.placeholder.com/300x900?text=Another+Logo",
+        "content" : [
+            {
+                "name" : "Albit",
+                "location" : "Russia"
+            },{            
+                "name" : "Baxter Belgium Italy",
+                "location" : "Swiss"
+            },{
+                "name" : "Bilthoven Biologicals",
+                "location" : "Netherlands"
+            },{
+                "name" : "Biovac South",
+                "location" : "Africa"
+            },{
+                "name" : "BP Biofuel & Verenium",
+                "location" : "USA"
+            },{
+                "name" : "Ceva Biomune Hungary",
+                "location" : "USA"
+            },{
+                "name" : "CPI",
+                "location" : "UK"
+            },{
+                "name" : "Danisco UK",
+                "location" : "France"
+            },{
+                "name" : "DianaPlantSciences",
+                "location" : "USA"
+            },{
+                "name" : "Elephant Vert",
+                "location" : "Morocco"
+            },{
+                "name" : "Epitopix",
+                "location" : "USA"
+            },{
+                "name" : "Excelvision",
+                "location" : "France"
+            },{
+                "name" : "Fermentalg",
+                "location" : "France"
+            },{
+                "name" : "Gilead",
+                "location" : "USA"
+            },{
+                "name" : "GSK & GSK Vaccine UK Belgium France Singapore",
+                "location" : "USA"
+            },{
+                "name" : "Hualan Bio",
+                "location" : "China"
+            },{
+                "name" : "L'Occitane",
+                "location" : "France"
+            },{
+                "name" : "Lily",
+                "location" : "France"
+            },{
+                "name" : "Lonza UK",
+                "location" : "USA"
+            },{
+                "name" : "Meddimune",
+                "location" : "USA"
+            },{
+                "name" : "Merck Millipore France",
+                "location" : "Swiss"
+            },{
+                "name" : "Merial France Italy",
+                "location" : "USA"
+            },{
+                "name" : "NIBRT",
+                "location" : "Irlande"
+            },{
+                "name" : "Novartis France",
+                "location" : "Singapore"
+            },{
+                "name" : "Pfizer France",
+                "location" : "Irlande"
+            },{
+                "name" : "Public Health England",
+                "location" : "UK"
+            },{
+                "name" : "Samsung Biologics",
+                "location" : "Korea"
+            },{
+                "name" : "Sanofi & Sanofi Pasteur Canada",
+                "location" : "France"
+            },{
+                "name" : "Sisley",
+                "location" : "France"
+            },{
+                "name" : "Takeda",
+                "location" : "USA"
+            },{
+                "name" : "Tecon",
+                "location" : "China"
+            },{
+                "name" : "Unither",
+                "location" : "France"
+            },{
+                "name" : "Volac",
+                "location" : "France"
+            },{
+                "name" : "Protgen",
+                "location" : "China"
+            },{
+                "name" : "Minhai Biotechnology",
+                "location" : "China"
+            }
+        ]
+    },{
+        "link" : "rpage3",
+        "title" : "REFERENCES",
+        "subtitle" : "WINE AND SPIRITS",
+        "image" : "https://via.placeholder.com/300x900?text=Another+Logo",
+        "content" : [
+            {
+                "name" : "Albit",
+                "location" : "Russia"
+            },{            
+                "name" : "Baxter Belgium Italy",
+                "location" : "Swiss"
+            },{
+                "name" : "Bilthoven Biologicals",
+                "location" : "Netherlands"
+            },{
+                "name" : "Biovac South",
+                "location" : "Africa"
+            },{
+                "name" : "BP Biofuel & Verenium",
+                "location" : "USA"
+            },{
+                "name" : "Ceva Biomune Hungary",
+                "location" : "USA"
+            },{
+                "name" : "CPI",
+                "location" : "UK"
+            },{
+                "name" : "Danisco UK",
+                "location" : "France"
+            },{
+                "name" : "DianaPlantSciences",
+                "location" : "USA"
+            },{
+                "name" : "Elephant Vert",
+                "location" : "Morocco"
+            },{
+                "name" : "Epitopix",
+                "location" : "USA"
+            },{
+                "name" : "Excelvision",
+                "location" : "France"
+            },{
+                "name" : "Fermentalg",
+                "location" : "France"
+            },{
+                "name" : "Gilead",
+                "location" : "USA"
+            },{
+                "name" : "GSK & GSK Vaccine UK Belgium France Singapore",
+                "location" : "USA"
+            },{
+                "name" : "Hualan Bio",
+                "location" : "China"
+            },{
+                "name" : "L'Occitane",
+                "location" : "France"
+            },{
+                "name" : "Lily",
+                "location" : "France"
+            },{
+                "name" : "Lonza UK",
+                "location" : "USA"
+            },{
+                "name" : "Meddimune",
+                "location" : "USA"
+            },{
+                "name" : "Merck Millipore France",
+                "location" : "Swiss"
+            },{
+                "name" : "Merial France Italy",
+                "location" : "USA"
+            },{
+                "name" : "NIBRT",
+                "location" : "Irlande"
+            },{
+                "name" : "Novartis France",
+                "location" : "Singapore"
+            },{
+                "name" : "Pfizer France",
+                "location" : "Irlande"
+            },{
+                "name" : "Public Health England",
+                "location" : "UK"
+            },{
+                "name" : "Samsung Biologics",
+                "location" : "Korea"
+            },{
+                "name" : "Sanofi & Sanofi Pasteur Canada",
+                "location" : "France"
+            },{
+                "name" : "Sisley",
+                "location" : "France"
+            },{
+                "name" : "Takeda",
+                "location" : "USA"
+            },{
+                "name" : "Tecon",
+                "location" : "China"
+            },{
+                "name" : "Unither",
+                "location" : "France"
+            },{
+                "name" : "Volac",
+                "location" : "France"
+            },{
+                "name" : "Protgen",
+                "location" : "China"
+            },{
+                "name" : "Minhai Biotechnology",
+                "location" : "China"
+            }
+        ]
+    }
+]

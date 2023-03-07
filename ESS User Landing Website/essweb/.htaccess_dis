@@ -1,0 +1,11 @@
+
+AddType application/javascript .json
+AddType application/json .json
+AddType text/json .json
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^esscorp.ca
+RewriteRule (.*) https://www.esscorp.ca/$1 [R=301,L]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
+

@@ -1,0 +1,296 @@
+#contact{
+    height: auto;
+    width: 100%;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* overflow-y: auto; */
+    position: relative;
+    /* display: none; */
+}
+#contact.hidden{
+    display: none;
+}
+.contact-header{
+    height: auto;
+    width: calc(100% - 40px);
+    padding: 0px 20px;
+    background-color: var(--MAIN_COLOR);
+    /* background-color: lightgrey; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contact-header > .title{
+    font-size: 2.5vw;
+    padding: 10px 0px;
+    font-family: avant-garde-lg;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.contact-content{
+    height: auto;
+    min-height: calc(100% - 140px);
+    width: calc(100% - 40px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact-content.hidden{
+    display: none;
+}
+.contact-content > .space{
+    height: 20px;
+    min-height: 20px;
+    width: 100%;
+}
+.contact-content > .title{
+    font-size: var(--TITLE_SIZE);
+    font-weight: bold;
+    font-family: avant-garde-lg;
+}
+
+
+.contact-content > .form{
+    width: 100%;
+    height: calc(100vh - calc(32vh + 1px));
+    padding: 10px 0px;
+    background-color: var(--SUB_COLOR);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.contact-content > .form > div.left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* background-color: red; */
+    position: relative;
+}
+.contact-content > .form > div.right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.contact-content > .form > div.left > select{
+    /* height: 30px; */
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: var(--TEXT_SIZE);
+    margin-bottom: 10px;
+}
+.contact-content > .form > div.left > select:disabled{
+    background-color: white;
+}
+.contact-content > .form > div.left > input{
+    /* height: 30px; */
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: var(--TEXT_SIZE);
+    margin-bottom: 10px;
+    cursor: text;
+}
+.contact-content > .form > div.left > span{
+    max-height: 150px;
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: var(--TEXT_SIZE);
+    margin-bottom: 10px;
+    cursor: text;
+    border: thin dashed white;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.contact-content > .form > div.right > textarea{
+    /* height: 30px; */
+    width: calc(100% - 10px);
+    height: 50%;
+    padding: 10px;
+    font-size: var(--TEXT_SIZE);
+    margin-bottom: 10px;
+    resize: none;
+    cursor: text;
+}
+.contact-content > .form > div.left > button{
+    /* height: 30px; */
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: var(--TEXT_SIZE);
+    margin-bottom: 10px;
+    background-color: var(--BTN_COLOR);
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.contact-product-spec{
+    width: calc(100% - 10px);
+    height: calc( 50% - 10px);
+    margin-bottom: 10px;
+    background-color: white;
+    position: relative;
+}
+.contact-product-spec > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.contact-product-spec > span{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    font-size: var(--TEXT_SIZE);
+    letter-spacing: 3px;
+    font-family: avant-garde-lg;
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.3);
+    color: var(--SUB_COLOR);
+}
+
+.contact-content > .info{
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 20px;
+    font-size: var(--TEXT_SIZE);
+}
+.contact-content > .info > .address > a{
+    padding: 10px 20px;
+    font-size: var(--TEXT_SIZE);
+    color: black;
+    cursor: pointer;
+}
+.contact-content > .info > .address > span{
+    padding: 10px 20px;
+    font-size: var(--MTITLE_SIZE);
+}
+#contact-address-map{
+    width: 100%;
+    height: 50vh;
+}
+.contact-content > .info > .hours > span{
+    font-size: var(--TEXT_SIZE);
+}
+
+
+.contact-content > .info > .hours{
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-content > .info > .hours > span{
+    font-size: var(--TITLE_SIZE);
+}
+.contact-content > .info > .hours > table{
+    font-size: var(--STEXT_SIZE);
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contactgallery{
+    height: 200px;
+    min-height: 200px;
+    max-height: 20vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* margin-bottom: 20px; */
+    overflow: hidden;
+}
+.contactgallery > .scroller{
+    width: auto;
+    max-width: 800px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.contactgallery > .scroller > .widget{
+    height: 200px;
+    width: 200px;
+    min-width: 200px;
+    margin: 0px 10px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.contactgallery > .scroller > .widget > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.contactgallery > .scroller > .widget > span{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px grey;
+    z-index: 2;
+    font-size: var(--STEXT_SIZE);
+    /* background-color: red; */
+}
+.contactgallery > .scroller > .widget:hover > img{
+    transform: scale(1.2);
+}
+.contactgallery > .scroller > hr{
+    width: 440px;
+    min-width: 220px;
+    background-color: transparent;
+}
+
+
+  
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-110%);  
+    }
+  }
+
+
+
+
+
+
